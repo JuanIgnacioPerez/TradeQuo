@@ -1,0 +1,1166 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>TradeQuo Weekend Gold &amp; Oil</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..800&display=swap">
+<style>
+:root{
+  --red:#E7141B; --red-press:#C40F15;
+  --ink:#05080C; --paper:#F5F5F5; --white:#FFFFFF;
+  --ink-2:#0C1117; --ink-3:#151C25; --ink-line:#232C38;
+  --on-ink:#F5F5F5; --on-ink-muted:#A7AFBA;
+  --on-paper:#05080C; --on-paper-muted:#4D555F; --paper-line:#E1E3E6;
+  --up:#3DDC97; --down-soft:#FF7A7E;
+  --font:"Inter","Inter Display",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --fs-h1:84px; --fs-h2:52px; --fs-h3:22px; --fs-lead:20px; --fs-body:17px; --fs-small:14px; --fs-micro:12.5px;
+  --s1:8px; --s2:16px; --s3:24px; --s4:32px; --s5:48px; --s6:64px; --s7:96px; --s8:128px;
+  --r-card:32px; --r-pill:60px; --r-inner:20px;
+  --gutter:40px; --maxw:1240px;
+  --ease:cubic-bezier(.2,.7,.2,1);
+  color-scheme:light;
+}
+@media (max-width:760px){
+  :root{ --fs-h1:46px; --fs-h2:34px; --fs-h3:20px; --fs-lead:17px; --fs-body:16px; --gutter:16px; --s8:80px; --s7:64px; --r-card:24px; }
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; scroll-padding-top:88px}
+body{margin:0; font-family:var(--font); font-size:var(--fs-body); line-height:1.6; color:var(--on-paper); background:var(--ink);
+  -webkit-font-smoothing:antialiased; font-optical-sizing:auto; overflow-x:hidden}
+h1,h2,h3{margin:0; font-weight:700; text-wrap:balance; font-variation-settings:"opsz" 32}
+p{margin:0}
+a{color:inherit}
+img,svg{display:block; max-width:100%}
+button{font:inherit; color:inherit}
+.wrap{max-width:calc(var(--maxw) + 2*var(--gutter)); margin-inline:auto; padding-inline:var(--gutter)}
+.num{font-variant-numeric:tabular-nums}
+:focus-visible{outline:3px solid var(--red); outline-offset:3px; border-radius:8px}
+
+.band{padding-block:var(--s8)}
+.band--ink{background:var(--ink); color:var(--on-ink)}
+.band--paper{background:var(--paper); color:var(--on-paper)}
+.band--white{background:var(--white); color:var(--on-paper)}
+.eyebrow{display:inline-flex; align-items:center; gap:10px; font-size:var(--fs-small); font-weight:700; letter-spacing:.08em; text-transform:uppercase}
+.band--ink .eyebrow{color:var(--on-ink)}
+.eyebrow::before{content:""; width:20px; height:3px; border-radius:3px; background:var(--red)}
+.sec-head{display:grid; gap:var(--s2); max-width:760px; margin-bottom:var(--s6)}
+.sec-head h2,.h2{font-size:var(--fs-h2); line-height:1.04; letter-spacing:-.032em}
+.sec-head p{font-size:var(--fs-lead); line-height:1.55; max-width:62ch}
+.band--ink .sec-head p{color:var(--on-ink-muted)}
+.band--paper .sec-head p,.band--white .sec-head p{color:var(--on-paper-muted)}
+.hl{color:var(--red)}
+.btn{--h:52px; display:inline-flex; align-items:center; justify-content:center; gap:10px; height:var(--h); padding:0 28px;
+  border-radius:var(--r-pill); font-size:16px; font-weight:600; letter-spacing:-.005em; text-decoration:none; cursor:pointer;
+  border:2px solid transparent; transition:background .2s var(--ease), color .2s, border-color .2s, transform .2s var(--ease); white-space:nowrap}
+.btn svg{width:18px;height:18px; transition:transform .25s var(--ease)}
+.btn:hover svg{transform:translateX(3px)}
+.btn:active{transform:scale(.97)}
+.btn--lg{--h:60px; padding:0 34px; font-size:17px}
+.btn--sm{--h:42px; padding:0 20px; font-size:15px}
+.btn--primary{background:var(--red); color:var(--white)}
+.btn--primary:hover{background:var(--red-press)}
+.btn--inverse{background:transparent; border-color:var(--on-ink); color:var(--on-ink)}
+.btn--inverse:hover{background:var(--on-ink); color:var(--ink)}
+.btn--block{width:100%}
+.cta-row{display:flex; flex-wrap:wrap; gap:var(--s2); align-items:center}
+.risk-micro{font-size:var(--fs-micro); line-height:1.5}
+.band--ink .risk-micro,.hero .risk-micro{color:var(--on-ink-muted)}
+.risk-micro a{text-underline-offset:3px}
+
+.live{display:inline-flex; align-items:center; gap:10px; padding:8px 16px 8px 12px; border-radius:var(--r-pill);
+  font-size:var(--fs-small); font-weight:600; background:rgba(245,245,245,.06); border:1px solid var(--ink-line); color:var(--on-ink)}
+.live .muted{color:var(--on-ink-muted); font-weight:500}
+.dot{width:8px; height:8px; border-radius:50%; background:var(--up); position:relative; flex:none}
+.dot::after{content:""; position:absolute; inset:-4px; border-radius:50%; border:2px solid var(--up); opacity:0; animation:ping 2s var(--ease) infinite}
+@keyframes ping{0%{transform:scale(.5);opacity:.9}100%{transform:scale(1.8);opacity:0}}
+
+.hdr{position:sticky; top:env(safe-area-inset-top,0px); z-index:50; background:transparent; transition:background .3s, border-color .3s, backdrop-filter .3s; border-bottom:1px solid transparent}
+.hdr.is-scrolled{background:rgba(5,8,12,.82); backdrop-filter:saturate(1.4) blur(14px); -webkit-backdrop-filter:saturate(1.4) blur(14px); border-color:var(--ink-line)}
+.hdr__in{display:flex; align-items:center; gap:var(--s4); height:80px}
+.hdr__logo img{height:24px; width:auto}
+.hdr__nav{display:flex; gap:var(--s4); margin-left:auto}
+.hdr__nav a{color:var(--on-ink-muted); text-decoration:none; font-size:15px; font-weight:500; transition:color .2s}
+.hdr__nav a:hover{color:var(--on-ink)}
+.hdr__act{display:flex; align-items:center; gap:var(--s2)}
+.hdr__login{color:var(--on-ink); text-decoration:none; font-size:15px; font-weight:600; padding:8px; border:0; background:none; cursor:pointer; border-radius:8px}
+.hdr__login:hover{text-decoration:underline; text-underline-offset:5px; text-decoration-color:var(--red)}
+@media (max-width:860px){ .hdr__nav{display:none} .hdr__act{margin-left:auto} }
+@media (max-width:420px){ .hdr__in{height:64px; gap:var(--s2)} .hdr__logo img{height:17px} .hdr__login{font-size:14px;padding:6px} .hdr .btn--sm{--h:38px; padding:0 16px; font-size:14px} .hero{margin-top:-64px} }
+
+.hero{position:relative; background:var(--ink); color:var(--on-ink); margin-top:-80px; padding-top:calc(80px + var(--s6)); padding-bottom:var(--s7); overflow:hidden; isolation:isolate}
+.hero__grid-bg{position:absolute; inset:0; z-index:-1; pointer-events:none;
+  background-image:linear-gradient(var(--ink-3) 1px,transparent 1px),linear-gradient(90deg,var(--ink-3) 1px,transparent 1px);
+  background-size:72px 72px; -webkit-mask-image:radial-gradient(ellipse 70% 60% at 70% 40%,#000 0%,transparent 75%); mask-image:radial-gradient(ellipse 70% 60% at 70% 40%,#000 0%,transparent 75%); opacity:.7}
+.hero__glow{position:absolute; z-index:-1; width:720px; height:720px; right:-120px; top:-160px; border-radius:50%;
+  background:radial-gradient(circle,rgba(231,20,27,.26),rgba(231,20,27,0) 62%); filter:blur(10px); animation:breathe 9s ease-in-out infinite}
+@keyframes breathe{50%{transform:translate(-40px,30px) scale(1.08)}}
+.hero__in{display:grid; grid-template-columns:1.02fr .98fr; gap:var(--s6); align-items:center}
+.hero__copy{display:grid; gap:var(--s3); min-width:0}
+.hero h1{font-size:var(--fs-h1); line-height:.96; letter-spacing:-.045em; font-weight:800}
+.hero h1 > span{display:block}
+.hero h1 em{font-style:normal}
+.hero__sub{font-size:var(--fs-lead); color:var(--on-ink-muted); max-width:30em}
+.hero__sub strong{color:var(--on-ink); font-weight:600}
+.hero .cta-row{margin-top:var(--s1)}
+.trust{display:flex; flex-wrap:wrap; gap:10px 24px; align-items:center; margin-top:var(--s4); padding-top:var(--s3); border-top:1px solid var(--ink-line); font-size:var(--fs-small); color:var(--on-ink-muted)}
+.trust__i{display:inline-flex; align-items:center; gap:8px}
+.trust__i svg{width:18px; height:18px; color:var(--on-ink)}
+.trust__i .trust__star{color:var(--red)}
+.trust__i b{color:var(--on-ink); font-weight:600}
+.hero [data-in]{animation:rise .9s var(--ease) both; animation-delay:calc(var(--d,0) * 90ms + 80ms)}
+@keyframes rise{from{opacity:0; transform:translateY(18px)}}
+@media (max-width:960px){ .hero__in{grid-template-columns:1fr; gap:var(--s5)} }
+@media (max-width:760px){ .hero{padding-top:calc(64px + var(--s4)); padding-bottom:var(--s6)} .hero__glow{width:420px;height:420px;right:-180px;top:-60px} .hero .cta-row .btn{flex:1 1 100%} .trust{margin-top:var(--s2); gap:10px 18px} }
+
+.mcard{background:var(--ink-2); border:1px solid var(--ink-line); border-radius:var(--r-card); padding:var(--s3); display:grid; gap:var(--s3); min-width:0; position:relative}
+.mcard__top{display:flex; justify-content:space-between; align-items:center; gap:var(--s2); flex-wrap:wrap}
+.seg{display:inline-flex; padding:4px; border-radius:var(--r-pill); background:var(--ink-3); border:1px solid var(--ink-line); position:relative}
+.seg button{position:relative; z-index:1; border:0; background:transparent; height:38px; padding:0 18px; border-radius:var(--r-pill); font-size:15px; font-weight:600; color:var(--on-ink-muted); cursor:pointer; display:inline-flex; align-items:center; gap:8px; transition:color .25s}
+.seg button[aria-selected="true"]{color:var(--ink)}
+.seg__thumb{position:absolute; top:4px; bottom:4px; left:4px; border-radius:var(--r-pill); background:var(--on-ink); transition:transform .4s var(--ease), width .4s var(--ease)}
+.chip-ico{width:18px; height:18px; flex:none}
+.mcard__open{font-size:13px; font-weight:600; color:var(--on-ink-muted); display:inline-flex; align-items:center; gap:8px}
+.mcard__q{display:flex; align-items:flex-end; justify-content:space-between; gap:var(--s2); flex-wrap:wrap}
+.mcard__price{text-align:right}
+.mcard__sym{font-size:var(--fs-small); color:var(--on-ink-muted); font-weight:500}
+.mcard__name{font-size:20px; font-weight:700; color:var(--on-ink); letter-spacing:-.01em}
+.mcard__px{font-size:40px; font-weight:700; letter-spacing:-.03em; line-height:1}
+.chg{display:inline-flex; align-items:center; gap:4px; padding:4px 10px; border-radius:var(--r-pill); font-size:14px; font-weight:700}
+.chg--up{background:rgba(61,220,151,.12); color:var(--up)}
+.chg--down{background:rgba(231,20,27,.16); color:var(--down-soft)}
+.chart{width:100%; height:auto; overflow:visible}
+.chart .wk{fill:rgba(231,20,27,.10)}
+.chart .wk-edge{stroke:rgba(231,20,27,.55); stroke-width:1; stroke-dasharray:3 4}
+.chart .wk-lbl{fill:#FF8A8D; font-size:11px; font-weight:700; letter-spacing:.08em}
+.chart .grid{stroke:var(--ink-line); stroke-width:1}
+.chart .day{fill:var(--on-ink-muted); font-size:11.5px; font-weight:500}
+.chart .line{fill:none; stroke:var(--red); stroke-width:2.25; stroke-linejoin:round; stroke-linecap:round}
+.chart .area{fill:url(#areaGrad)}
+.chart .now{fill:var(--red); stroke:var(--ink-2); stroke-width:2} .chart .now-halo{fill:rgba(231,20,27,.18)}
+.mcard__foot{display:flex; justify-content:space-between; align-items:center; gap:var(--s2); flex-wrap:wrap; padding-top:var(--s2); border-top:1px solid var(--ink-line)}
+.mcard__note{font-size:12.5px; color:var(--on-ink-muted)}
+.linkbtn{border:0; background:none; padding:6px 0; font-weight:600; font-size:15px; color:var(--on-ink); display:inline-flex; align-items:center; gap:8px; cursor:pointer; text-decoration:underline; text-decoration-color:rgba(245,245,245,.35); text-underline-offset:5px; transition:text-decoration-color .2s}
+.linkbtn:hover{text-decoration-color:var(--red)}
+.linkbtn svg{width:16px;height:16px; transition:transform .25s var(--ease)}
+.linkbtn:hover svg{transform:translateX(3px)}
+@media (max-width:760px){ .mcard{padding:var(--s2)} .mcard__px{font-size:32px} .seg button{padding:0 14px; height:36px} }
+
+.week{display:grid; grid-template-columns:1fr 1.15fr; gap:var(--s6); align-items:center}
+.week__copy{display:grid; gap:var(--s3); min-width:0}
+.week__lead{font-size:var(--fs-lead); color:var(--on-paper-muted); max-width:52ch}
+.facts{display:grid; grid-template-columns:repeat(3,1fr); gap:var(--s2); margin-top:var(--s2)}
+.fact{padding-top:var(--s2); border-top:2px solid var(--ink)}
+.fact b{display:block; font-size:36px; line-height:1.1; letter-spacing:-.03em; font-weight:800}
+.fact span{font-size:var(--fs-small); color:var(--on-paper-muted); line-height:1.4; display:block; margin-top:4px}
+.tl{background:var(--white); border-radius:var(--r-card); padding:72px var(--s4) var(--s4); border:1px solid var(--paper-line); min-width:0; position:relative}
+.tl__days{display:grid; grid-template-columns:repeat(7,1fr); font-size:13px; font-weight:600; color:var(--on-paper-muted); margin-bottom:var(--s2)}
+.tl__days span{text-align:center}
+.tl__days .we{color:var(--ink)}
+.tl__row{display:grid; gap:10px; margin-bottom:var(--s3)}
+.tl__row--last{margin-bottom:var(--s2)}
+.tl__lbl{display:flex; justify-content:space-between; gap:var(--s2); font-size:var(--fs-small); font-weight:600}
+.tl__lbl small{font-weight:500; color:var(--on-paper-muted); font-size:13px}
+.tl__track{position:relative; height:44px; border-radius:14px; background:
+  repeating-linear-gradient(90deg,transparent 0 calc(100%/7 - 1px),var(--paper-line) calc(100%/7 - 1px) calc(100%/7)); overflow:hidden; background-color:var(--paper)}
+.tl__bar{position:absolute; top:6px; bottom:6px; left:6px; border-radius:10px; transform-origin:left center}
+.tl__bar--std{width:calc(70.2% - 6px); background:#C9CDD2}
+.tl__closed{position:absolute; top:6px; bottom:6px; right:6px; left:calc(71.4% + 2px); border-radius:10px;
+  background:repeating-linear-gradient(-45deg,transparent 0 6px,rgba(5,8,12,.08) 6px 8px); display:grid; place-items:center; font-size:12px; font-weight:700; letter-spacing:.06em; color:var(--on-paper-muted); text-transform:uppercase}
+.tl__bar--tq{right:6px; background:linear-gradient(90deg,var(--ink) 0 71.4%,var(--red) 71.4% 100%)}
+.tl__bar--tq::after{content:"Weekend open"; position:absolute; right:0; width:28.6%; top:0; bottom:0; display:grid; place-items:center; color:var(--white); font-size:12px; font-weight:700; letter-spacing:.06em; text-transform:uppercase}
+.tl.play .tl__bar{animation:grow 1.4s var(--ease) both}
+.tl.play .tl__bar--tq{animation-delay:.35s; animation-duration:1.8s}
+@keyframes grow{from{transform:scaleX(0)}}
+.tl__now{position:absolute; top:0; height:0; width:0; pointer-events:none}
+.tl__now::before{content:""; position:absolute; top:44px; bottom:-6px; left:-1px; width:2px; background:var(--red)}
+.tl__now-tag{position:absolute; top:20px; transform:translateX(-50%); background:var(--red); color:var(--white); font-size:12px; font-weight:700; padding:4px 10px; border-radius:var(--r-pill); white-space:nowrap}
+.tl__legend{display:flex; justify-content:space-between; gap:var(--s2); flex-wrap:wrap; font-size:13px; color:var(--on-paper-muted); padding-top:var(--s2); border-top:1px solid var(--paper-line)}
+.tl__legend b{color:var(--ink)}
+@media (max-width:960px){ .week{grid-template-columns:1fr; gap:var(--s5)} }
+@media (max-width:760px){ .tl{padding:64px var(--s2) var(--s3)} .tl__days{font-size:11.5px} .tl__bar--tq::after{content:"Open"; font-size:10.5px} .tl__closed{font-size:10px; letter-spacing:.02em} .facts{gap:12px} .fact b{font-size:28px} .tl__now-tag{top:18px} .tl__now::before{top:40px} }
+
+.markets{display:grid; grid-template-columns:1fr 1fr; gap:var(--s3)}
+.pcard{position:relative; background:var(--ink-2); border:1px solid var(--ink-line); border-radius:var(--r-card); padding:var(--s5); display:grid; gap:var(--s3); overflow:hidden; isolation:isolate; transition:border-color .3s, transform .4s var(--ease)}
+.pcard:hover{border-color:#3A4554; transform:translateY(-4px)}
+.pcard__art{position:absolute; right:-10px; top:-10px; width:260px; height:220px; z-index:-1; opacity:.95}
+.pcard__glow{position:absolute; right:-80px; top:-100px; width:380px; height:380px; border-radius:50%; z-index:-2; opacity:.45}
+.pcard--gold .pcard__glow{background:radial-gradient(circle,rgba(217,169,58,.45),transparent 65%)}
+.pcard--oil .pcard__glow{background:radial-gradient(circle,rgba(120,140,170,.35),transparent 65%)}
+.pcard__tag{display:inline-flex; align-self:start; justify-self:start; align-items:center; gap:8px; font-size:13px; font-weight:600; padding:6px 12px; border-radius:var(--r-pill); border:1px solid var(--ink-line); color:var(--on-ink)}
+.pcard h3{font-size:40px; letter-spacing:-.035em; line-height:1; font-weight:800; margin-top:var(--s6)}
+.pcard h3 small{display:block; font-size:var(--fs-small); letter-spacing:0; font-weight:500; color:var(--on-ink-muted); margin-top:10px}
+.pcard p{color:var(--on-ink-muted); max-width:44ch}
+.specs{display:grid; grid-template-columns:1fr 1fr; gap:0; border-top:1px solid var(--ink-line); margin:0}
+.specs div{padding:14px 0; border-bottom:1px solid var(--ink-line)}
+.specs div:nth-child(odd){padding-right:var(--s2)}
+.specs dt{font-size:12.5px; color:var(--on-ink-muted); font-weight:500}
+.specs dd{margin:2px 0 0; font-size:15px; font-weight:600; color:var(--on-ink)}
+.foot-note{margin-top:var(--s3); font-size:var(--fs-micro); color:var(--on-ink-muted)}
+.shine{animation:shine 4.5s ease-in-out infinite}
+@keyframes shine{0%,55%{transform:translateX(-140px)}85%,100%{transform:translateX(260px)}}
+.wave{animation:wave 5s ease-in-out infinite alternate}
+@keyframes wave{to{transform:translateX(-40px)}}
+.drop-bob{animation:bob 6s ease-in-out infinite; transform-box:fill-box; transform-origin:center}
+@keyframes bob{50%{transform:translateY(-8px)}}
+@media (max-width:860px){ .markets{grid-template-columns:1fr} .pcard{padding:var(--s3)} .pcard__art{width:190px;height:160px} .pcard h3{font-size:34px; margin-top:var(--s5)} }
+
+.bens{display:grid; grid-template-columns:repeat(4,1fr); gap:var(--s2)}
+.ben{background:var(--white); border-radius:var(--r-card); padding:var(--s4); display:grid; gap:var(--s2); align-content:start; border:1px solid transparent; transition:border-color .3s, transform .4s var(--ease)}
+.ben:hover{border-color:var(--ink); transform:translateY(-4px)}
+.ben__ico{width:56px; height:56px; border-radius:18px; background:var(--paper); display:grid; place-items:center; color:var(--red); transition:background .3s, color .3s}
+.ben:hover .ben__ico{background:var(--red); color:var(--white)}
+.ben__ico svg{width:26px; height:26px}
+.ben h3{font-size:var(--fs-h3); letter-spacing:-.02em; line-height:1.2; margin-top:var(--s1)}
+.ben p{font-size:15.5px; color:var(--on-paper-muted); line-height:1.55}
+@media (max-width:1100px){ .bens{grid-template-columns:repeat(2,1fr)} }
+@media (max-width:560px){ .bens{grid-template-columns:1fr} .ben{grid-template-columns:56px 1fr; column-gap:var(--s2); padding:var(--s3)} .ben__ico{grid-row:span 2} .ben h3{margin-top:0; align-self:center} }
+
+.plat{display:grid; grid-template-columns:.8fr 1.2fr; gap:var(--s6); align-items:center}
+.plat__copy{display:grid; gap:var(--s3); min-width:0}
+.ptabs{display:grid; gap:10px}
+.ptab{display:grid; grid-template-columns:auto 1fr; gap:4px 16px; text-align:left; padding:18px 20px; border-radius:var(--r-inner); border:1px solid var(--ink-line); background:transparent; cursor:pointer; transition:background .3s, border-color .3s}
+.ptab:hover{border-color:#3A4554}
+.ptab[aria-selected="true"]{background:var(--ink-2); border-color:var(--on-ink)}
+.ptab__k{grid-row:span 2; width:40px; height:40px; border-radius:12px; display:grid; place-items:center; background:var(--ink-3); color:var(--on-ink)}
+.ptab[aria-selected="true"] .ptab__k{background:var(--red); color:var(--white)}
+.ptab__k svg{width:20px;height:20px}
+.ptab b{font-size:17px; color:var(--on-ink)}
+.ptab span{font-size:14px; color:var(--on-ink-muted); line-height:1.45}
+.stage{position:relative; min-width:0; aspect-ratio:16/11; max-width:100%}
+.win{position:absolute; inset:0 70px 40px 0; background:var(--ink-2); border:1px solid var(--ink-line); border-radius:var(--r-inner); overflow:hidden; display:grid; grid-template-rows:auto 1fr; transition:opacity .5s var(--ease), transform .6s var(--ease)}
+.win__bar{display:flex; align-items:center; gap:8px; padding:12px 16px; border-bottom:1px solid var(--ink-line); font-size:12.5px; color:var(--on-ink-muted)}
+.win__bar i{width:10px;height:10px;border-radius:50%;background:var(--ink-line);display:block}
+.win__bar b{margin-left:10px; color:var(--on-ink); font-weight:600}
+.win__bar .tag{margin-left:auto; padding:3px 9px; border-radius:var(--r-pill); background:var(--ink-3); font-weight:600}
+.win__body{display:grid; grid-template-columns:150px 1fr; min-height:0}
+.win__chart{position:relative; padding:14px; min-width:0}
+.win__chart canvas{width:100%; height:100%; display:block}
+.win__side{order:-1; border-right:1px solid var(--ink-line); padding:14px; display:grid; gap:10px; align-content:start; font-size:12px; color:var(--on-ink-muted)}
+.win__side .row{display:flex; justify-content:space-between}
+.win__side .row b{color:var(--on-ink)}
+.ord{display:grid; grid-template-columns:1fr 1fr; gap:6px; margin-top:6px}
+.ord span{border-radius:32px; padding:8px 6px; text-align:center; font-weight:700; font-size:12px; color:var(--white)}
+.ord .s{background:var(--ink-3); border:1px solid var(--ink-line)} .ord .b{background:var(--red)}
+.phone{position:absolute; right:0; bottom:0; width:34%; aspect-ratio:9/18.5; background:var(--ink); border:6px solid #1E2631; border-radius:34px; overflow:hidden; display:grid; grid-template-rows:auto auto 1fr auto; padding:18px 12px 12px; gap:8px; box-shadow:0 0 0 1px var(--ink-line); transition:transform .6s var(--ease)}
+.phone__notch{width:38%; height:6px; border-radius:6px; background:#1E2631; justify-self:center; margin-top:-8px}
+.phone__h{display:flex; justify-content:space-between; align-items:center; font-size:11px; color:var(--on-ink-muted)}
+.phone__h b{font-size:13px; color:var(--on-ink)}
+.phone__px{font-size:20px; font-weight:800; color:var(--on-ink); letter-spacing:-.02em}
+.phone canvas{width:100%; height:100%}
+.phone .ord span{font-size:11px; padding:9px 4px}
+.stage[data-view="mobile"] .win{opacity:.35; transform:scale(.96) translateX(-10px)}
+.stage[data-view="mobile"] .phone{transform:translateY(-14px) scale(1.06)}
+.stage[data-view="desktop"] .phone{transform:translateY(16px)}
+@media (max-width:960px){ .plat{grid-template-columns:1fr; gap:var(--s5)} }
+@media (max-width:560px){ .stage{aspect-ratio:10/11} .win{inset:0 30px 70px 0} .win__body{grid-template-columns:1fr} .win__side{display:none} .phone{width:42%; border-width:5px; border-radius:26px} }
+
+.steps{display:grid; grid-template-columns:repeat(3,1fr); gap:var(--s3); position:relative; counter-reset:st}
+.step{background:var(--paper); border-radius:var(--r-card); padding:var(--s4); display:grid; gap:var(--s2); align-content:start; position:relative}
+.step__n{width:56px; height:56px; border-radius:50%; background:var(--ink); color:var(--white); display:grid; place-items:center; font-weight:800; font-size:20px; position:relative; z-index:1; box-shadow:0 0 0 8px var(--paper)}
+.step:last-child .step__n{background:var(--red)}
+.step__t{display:flex; justify-content:space-between; align-items:baseline; gap:var(--s2); margin-top:var(--s1)}
+.step h3{font-size:var(--fs-h3); letter-spacing:-.02em}
+.step__time{font-size:13px; font-weight:600; color:var(--on-paper-muted); white-space:nowrap; display:inline-flex; align-items:center; gap:6px}
+.step__time svg{width:14px;height:14px}
+.step p{color:var(--on-paper-muted); font-size:15.5px}
+.steps-cta{display:flex; flex-wrap:wrap; gap:var(--s3); align-items:center; justify-content:space-between; margin-top:var(--s5); padding:var(--s3) var(--s4); border-radius:var(--r-card); background:var(--ink); color:var(--on-ink)}
+.steps-cta p{font-size:18px; font-weight:600}
+.steps-cta p span{display:block; font-size:var(--fs-micro); font-weight:400; color:var(--on-ink-muted); margin-top:4px}
+@media (max-width:860px){ .steps{grid-template-columns:1fr; gap:var(--s2)} .step{grid-template-columns:56px 1fr; column-gap:var(--s2); padding:var(--s3)} .step__n{grid-row:span 2} .step__t{margin-top:0} .steps-cta{padding:var(--s3)} .steps-cta .cta-row{width:100%} .steps-cta .btn{flex:1 1 auto} }
+
+.tgrid{display:grid; grid-template-columns:1.25fr 1fr 1fr; grid-template-rows:auto auto; gap:var(--s2)}
+.tcard{border-radius:var(--r-card); padding:var(--s4); background:var(--white); display:grid; gap:12px; align-content:start}
+.tcard h3{font-size:var(--fs-h3); letter-spacing:-.02em; line-height:1.2}
+.tcard p{color:var(--on-paper-muted); font-size:15.5px}
+.tcard__ico{width:44px;height:44px;color:var(--ink)} .tcard__ico svg{width:100%;height:100%}
+.tcard--reg{grid-row:span 2; background:var(--ink); color:var(--on-ink)}
+.tcard--reg p{color:var(--on-ink-muted)}
+.tcard--reg .tcard__ico{color:var(--red)}
+.lic{display:grid; gap:10px; margin-top:var(--s2)}
+.lic div{display:flex; justify-content:space-between; align-items:center; gap:var(--s2); padding:14px 18px; border-radius:16px; background:var(--ink-2); border:1px solid var(--ink-line); font-size:14px}
+.lic b{font-size:15px}
+.lic span{color:var(--on-ink-muted); text-align:right}
+.lic .soon{opacity:.75}
+.rating{display:flex; align-items:center; gap:12px; flex-wrap:wrap}
+.stars{display:flex; gap:2px; color:var(--red)} .stars svg{width:20px;height:20px}
+.rating b{font-size:28px; letter-spacing:-.02em}
+@media (max-width:960px){ .tgrid{grid-template-columns:1fr 1fr} .tcard--reg{grid-column:1/-1; grid-row:auto} }
+@media (max-width:560px){ .tgrid{grid-template-columns:1fr} .tcard{padding:var(--s3)} }
+
+.faq{display:grid; grid-template-columns:.8fr 1.2fr; gap:var(--s6); align-items:start}
+.faq .sec-head{margin-bottom:0; position:sticky; top:120px}
+.faq__help{margin-top:var(--s3); font-size:15px; color:var(--on-paper-muted)}
+.faq__help b{color:var(--ink)}
+.acc{border-top:1px solid #D3D6DA}
+.acc__i{border-bottom:1px solid #D3D6DA}
+.acc__q{width:100%; display:flex; justify-content:space-between; align-items:center; gap:var(--s3); padding:24px 0; background:none; border:0; text-align:left; font-size:19px; font-weight:600; letter-spacing:-.01em; cursor:pointer; color:var(--ink)}
+.acc__pm{flex:none; width:36px; height:36px; border-radius:50%; border:2px solid var(--ink); position:relative; transition:background .3s, transform .4s var(--ease)}
+.acc__pm::before,.acc__pm::after{content:""; position:absolute; left:50%; top:50%; width:12px; height:2px; background:var(--ink); transform:translate(-50%,-50%); transition:transform .4s var(--ease), background .3s}
+.acc__pm::after{transform:translate(-50%,-50%) rotate(90deg)}
+.acc__q[aria-expanded="true"] .acc__pm{background:var(--ink); transform:rotate(180deg)}
+.acc__q[aria-expanded="true"] .acc__pm::before,.acc__q[aria-expanded="true"] .acc__pm::after{background:var(--white)}
+.acc__q[aria-expanded="true"] .acc__pm::after{transform:translate(-50%,-50%) rotate(0deg)}
+.acc__a{display:grid; grid-template-rows:0fr; transition:grid-template-rows .45s var(--ease)}
+.acc__a > div{overflow:hidden}
+.acc__a p{padding:0 56px 24px 0; color:var(--on-paper-muted); max-width:62ch}
+.acc__q[aria-expanded="true"] + .acc__a{grid-template-rows:1fr}
+@media (max-width:960px){ .faq{grid-template-columns:1fr; gap:var(--s4)} .faq .sec-head{position:static} }
+@media (max-width:760px){ .acc__q{font-size:17px; padding:20px 0} .acc__a p{padding-right:0} }
+
+.final{position:relative; overflow:hidden; isolation:isolate; text-align:center}
+.final__bg{position:absolute; inset:0; z-index:-1; display:grid; place-items:center; pointer-events:none}
+.final__bg span{font-size:min(36vw,520px); font-weight:800; letter-spacing:-.06em; line-height:.8; color:transparent; -webkit-text-stroke:1.5px var(--ink-line); white-space:nowrap; font-variation-settings:"opsz" 32}
+.final__in{display:grid; gap:var(--s3); justify-items:center}
+.final h2{font-size:calc(var(--fs-h2) * 1.25); line-height:1; letter-spacing:-.04em; font-weight:800; max-width:14ch}
+.final p.lead{font-size:var(--fs-lead); color:var(--on-ink-muted)}
+.final .cta-row{justify-content:center}
+@media (max-width:760px){ .final h2{font-size:42px} .final .cta-row{width:100%} .final .cta-row .btn{flex:1 1 100%} }
+
+.foot{background:var(--ink-2); color:var(--on-ink-muted); padding-block:var(--s6) var(--s4); font-size:var(--fs-small)}
+.foot a{color:var(--on-ink); text-decoration:none}
+.foot a:hover{text-decoration:underline; text-underline-offset:4px; text-decoration-color:var(--red)}
+.foot__top{display:flex; justify-content:space-between; align-items:center; gap:var(--s3) var(--s4); flex-wrap:wrap; padding-bottom:var(--s4); border-bottom:1px solid var(--ink-line)}
+.foot__top img{height:22px; width:auto}
+.foot__links{display:flex; gap:12px var(--s4); flex-wrap:wrap}
+.riskbox{margin-block:var(--s4); padding:var(--s3); border-radius:var(--r-inner); border:1px solid var(--ink-line); background:var(--ink); color:var(--on-ink); display:grid; grid-template-columns:auto 1fr; gap:var(--s2); line-height:1.6}
+.riskbox svg{width:24px; height:24px; color:var(--red)}
+.riskbox b{display:block; font-size:15px; margin-bottom:4px}
+.foot__legal{display:grid; gap:12px; font-size:var(--fs-micro); line-height:1.65}
+.foot__legal b{color:var(--on-ink); font-weight:600}
+.foot__ents{display:grid; grid-template-columns:repeat(2,1fr); gap:12px var(--s4); margin:4px 0}
+.foot__bottom{display:flex; justify-content:space-between; gap:var(--s2); flex-wrap:wrap; margin-top:var(--s4); padding-top:var(--s3); border-top:1px solid var(--ink-line); font-size:var(--fs-micro)}
+@media (max-width:760px){ .foot{padding-block:var(--s6) calc(var(--s4) + 96px)} .foot__links{gap:12px 20px} .foot__ents{grid-template-columns:1fr} }
+
+.mcta{position:fixed; left:0; right:0; bottom:0; z-index:60; padding:12px var(--gutter) calc(12px + env(safe-area-inset-bottom,0px)); background:rgba(5,8,12,.92); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px); border-top:1px solid var(--ink-line); display:none; gap:6px; transform:translateY(110%); transition:transform .45s var(--ease)}
+.mcta.show{transform:none}
+.mcta p{text-align:center; font-size:11.5px; color:var(--on-ink-muted)}
+@media (max-width:760px){ .mcta{display:grid} }
+
+@supports (animation-timeline:view()){
+  .rv{animation:rv linear both; animation-timeline:view(); animation-range:entry 0% entry 55%}
+  @keyframes rv{from{opacity:.0; transform:translateY(36px)}}
+}
+
+html:has(dialog.su[open]){overflow:hidden}
+dialog.su{border:0; padding:0; margin:auto; width:min(940px,calc(100vw - 48px)); max-width:none; max-height:min(800px,calc(100dvh - 48px));
+  border-radius:var(--r-card); background:var(--white); color:var(--ink); overflow:hidden}
+dialog.su[open]{display:flex; animation:pop .45s var(--ease)}
+dialog.su::backdrop{background:rgba(5,8,12,.74); backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px)}
+@keyframes pop{from{opacity:0; transform:translateY(24px) scale(.98)}}
+dialog.su [hidden]{display:none!important}
+
+.su__aside{flex:0 0 340px; background:var(--ink); color:var(--on-ink); padding:40px 32px 32px; display:flex; flex-direction:column; gap:var(--s4); position:relative; overflow:hidden; isolation:isolate}
+.su__aside::before{content:""; position:absolute; z-index:-1; width:420px; height:420px; left:-140px; bottom:-200px; border-radius:50%; background:radial-gradient(circle,rgba(231,20,27,.32),transparent 62%)}
+.su__aside > img{height:22px; width:auto; align-self:flex-start}
+.su__aside h3{font-size:26px; line-height:1.12; letter-spacing:-.03em; font-weight:800; font-variation-settings:"opsz" 32}
+.vsteps{list-style:none; margin:0; padding:0; display:grid; gap:0}
+.vsteps li{display:grid; grid-template-columns:32px 1fr; gap:14px; position:relative; padding-bottom:22px}
+.vsteps li:not(:last-child)::before{content:""; position:absolute; left:15px; top:34px; bottom:2px; width:2px; background:var(--ink-line); transition:background .5s}
+.vsteps li.done:not(:last-child)::before{background:var(--on-ink)}
+.vs__n{width:32px; height:32px; border-radius:50%; display:grid; place-items:center; font-size:14px; font-weight:700; border:2px solid var(--ink-line); color:var(--on-ink-muted); transition:all .35s var(--ease)}
+.vs__n i{font-style:normal} .vs__n svg{width:14px; height:14px; display:none}
+.vsteps li.cur .vs__n{background:var(--red); border-color:var(--red); color:var(--white)}
+.vsteps li.done .vs__n{background:var(--on-ink); border-color:var(--on-ink); color:var(--ink)}
+.vsteps li.done .vs__n i{display:none} .vsteps li.done .vs__n svg{display:block}
+.vsteps b{display:block; font-size:16px; line-height:32px; color:var(--on-ink-muted); transition:color .3s}
+.vsteps li.cur b,.vsteps li.done b{color:var(--on-ink)}
+.vsteps li > div > span{display:block; font-size:13px; color:var(--on-ink-muted); line-height:1.45; margin-top:-4px}
+.su__trust{margin-top:auto; display:grid; gap:10px; padding-top:var(--s3); border-top:1px solid var(--ink-line); font-size:13px; color:var(--on-ink-muted)}
+.su__trust div{display:flex; align-items:center; gap:10px}
+.su__trust svg{width:16px; height:16px; color:var(--on-ink); flex:none}
+.su__trust b{color:var(--on-ink); font-weight:600}
+
+.su__main{flex:1 1 auto; min-width:0; min-height:0; display:flex; flex-direction:column}
+.su__hd{flex:none; padding:20px 24px 0 40px}
+.su__handle{display:none}
+.su__hdrow{display:flex; align-items:center; gap:var(--s2); min-height:40px}
+.su__hdlogo{display:none}
+.su__steplbl{font-size:13px; font-weight:600; color:var(--on-paper-muted); letter-spacing:.02em}
+.su__x{margin-left:auto; width:40px; height:40px; border-radius:50%; border:0; background:var(--paper); cursor:pointer; display:grid; place-items:center; flex:none; transition:background .2s}
+.su__x:hover{background:var(--paper-line)}
+.su__x svg{width:18px; height:18px}
+.prog{display:none; grid-template-columns:repeat(3,1fr); gap:6px; list-style:none; margin:12px 0 0; padding:0}
+.prog li{height:4px; border-radius:4px; background:var(--paper-line); transition:background .5s}
+.prog li.done{background:var(--ink)} .prog li.cur{background:var(--red)}
+dialog.su[data-mode="demo"] .prog{grid-template-columns:repeat(2,1fr)}
+
+.su__step{flex:1 1 auto; min-height:0; display:flex; flex-direction:column; margin:0}
+.su__body{flex:1 1 auto; min-height:0; overflow-y:auto; overscroll-behavior:contain; padding:12px 40px 24px; display:grid; gap:20px; align-content:start;
+  scrollbar-width:thin; scrollbar-color:#CDD1D6 transparent}
+.su__body::-webkit-scrollbar{width:10px}
+.su__body::-webkit-scrollbar-thumb{background:#CDD1D6; border-radius:10px; border:3px solid var(--white)}
+.su__foot{flex:none; padding:16px 40px 28px; display:grid; gap:12px; background:var(--white); border-top:1px solid transparent; transition:border-color .2s}
+.su__step.is-overflow .su__foot{border-top-color:var(--paper-line)}
+
+.su h2{font-size:30px; letter-spacing:-.03em; line-height:1.1}
+.su__lead{color:var(--on-paper-muted); font-size:15px; margin-top:6px; line-height:1.5}
+dialog.su[data-view="signup"] .for-login,dialog.su[data-view="login"] .for-signup{display:none!important}
+dialog.su[data-view="login"] .prog{display:none!important}
+.su__live{align-self:flex-start}
+.fld__meta{display:flex; justify-content:flex-end; margin-top:2px}
+.su__lnk{border:0; background:none; padding:0; font-weight:600; color:var(--ink); text-decoration:underline; text-underline-offset:4px; cursor:pointer; font-size:13.5px}
+.flabel{font-size:13.5px; font-weight:600}
+.picks{display:flex; gap:10px; flex-wrap:wrap; margin-top:8px}
+.pick{display:inline-flex; align-items:center; gap:8px; height:42px; padding:0 16px 0 12px; border-radius:var(--r-pill); border:2px solid var(--paper-line); background:var(--white); font-weight:600; font-size:14.5px; cursor:pointer; transition:border-color .2s, background .2s}
+.pick:hover{border-color:#B9BEC4}
+.pick[aria-pressed="true"]{border-color:var(--ink); background:var(--paper)}
+.pick .ck{width:18px;height:18px;border-radius:50%; border:2px solid #C9CDD2; display:grid; place-items:center; transition:background .2s,border-color .2s}
+.pick[aria-pressed="true"] .ck{background:var(--ink); border-color:var(--ink)}
+.pick .ck svg{width:10px;height:10px;color:var(--white);opacity:0}
+.pick[aria-pressed="true"] .ck svg{opacity:1}
+.row2{display:grid; grid-template-columns:1fr 1fr; gap:16px}
+.fld{display:grid; gap:6px; align-content:start; min-width:0}
+.fld label{font-size:13.5px; font-weight:600}
+.fld input,.fld select{height:48px; border-radius:14px; border:2px solid var(--paper-line); padding:0 14px; font:inherit; font-size:16px; color:var(--ink); background:var(--white); transition:border-color .2s; width:100%; min-width:0}
+.fld input:hover,.fld select:hover{border-color:#C9CDD2}
+.fld input:focus,.fld select:focus{outline:none; border-color:var(--ink)}
+.fld input:user-invalid,.fld select:user-invalid{border-color:var(--red)}
+.fld .err{font-size:12.5px; color:#B00E14; display:none}
+.fld input:user-invalid ~ .err{display:block}
+.pw{position:relative}
+.pw input{padding-right:70px}
+.pw button{position:absolute; right:6px; top:6px; height:36px; padding:0 12px; border:0; border-radius:10px; background:var(--paper); font-size:13px; font-weight:600; cursor:pointer}
+.chk{display:grid; grid-template-columns:20px 1fr; gap:12px; font-size:13.5px; color:var(--on-paper-muted); line-height:1.5; align-items:start; cursor:pointer}
+.chk input{width:20px; height:20px; margin:1px 0 0; accent-color:var(--ink)}
+.su__alt{display:flex; justify-content:space-between; gap:8px 16px; flex-wrap:wrap; font-size:14px; color:var(--on-paper-muted)}
+.su__alt button{border:0; background:none; padding:0; font-weight:600; color:var(--ink); text-decoration:underline; text-underline-offset:4px; cursor:pointer; font-size:14px}
+.su__risk{font-size:12px; color:var(--on-paper-muted); line-height:1.5}
+.su__risk b{color:var(--ink)}
+.proto{font-size:12px; color:var(--on-paper-muted)}
+.upl{display:grid; grid-template-columns:1fr 1fr; gap:12px}
+.upl button{display:grid; gap:6px; justify-items:start; text-align:left; padding:18px; border-radius:20px; border:2px dashed #C9CDD2; background:var(--paper); cursor:pointer; font-size:14.5px; font-weight:600; transition:border-color .2s, background .2s}
+.upl button:hover{border-color:var(--ink)}
+.upl button span{font-weight:400; color:var(--on-paper-muted); font-size:13px; line-height:1.4}
+.upl button svg{width:24px;height:24px}
+.upl button.ok{border-style:solid; border-color:var(--ink); background:var(--white)}
+.note{display:grid; grid-template-columns:20px 1fr; gap:10px; font-size:13.5px; color:var(--on-paper-muted); padding:14px 16px; border-radius:16px; background:var(--paper)}
+.note svg{width:18px; height:18px; color:var(--ink); margin-top:2px}
+.okmark{width:64px; height:64px; border-radius:50%; background:var(--ink); color:var(--white); display:grid; place-items:center}
+.okmark svg{width:28px; height:28px}
+.okmark svg path{stroke-dasharray:30; stroke-dashoffset:30; animation:tick .6s .15s var(--ease) forwards}
+@keyframes tick{to{stroke-dashoffset:0}}
+.nextcard{display:grid; grid-template-columns:auto 1fr; gap:14px; padding:18px; border-radius:20px; background:var(--paper); align-items:start}
+.nextcard .n{width:36px;height:36px;border-radius:50%;background:var(--red);color:var(--white);display:grid;place-items:center;font-weight:800}
+.nextcard b{display:block}
+.nextcard div span{display:block; font-size:14px; line-height:1.5; margin-top:2px; color:var(--on-paper-muted)}
+#s3 .su__body{align-content:center}
+.su h2:focus{outline:none}
+.btn[disabled]{opacity:.4; cursor:not-allowed}
+.btn[disabled]:active{transform:none}
+
+@media (max-height:760px){ .su__aside{gap:20px; padding:32px 28px 24px} .su__aside h3{font-size:22px} .vsteps li{padding-bottom:14px} .su__trust div:nth-child(n+3){display:none} }
+@media (max-width:820px){ .su__aside{display:none} dialog.su{width:min(560px,calc(100vw - 32px))} .su__hdlogo{display:block; height:18px; width:auto} .su__steplbl{display:none} .prog{display:grid} .su__hd{padding:16px 20px 0 24px} .su__body{padding:16px 24px 20px} .su__foot{padding:14px 24px 24px} }
+
+@media (max-width:600px){
+  dialog.su{width:100%; max-width:100%; margin:auto 0 0; max-height:calc(100dvh - 16px); border-radius:28px 28px 0 0}
+  dialog.su[open]{animation:sheet .5s var(--ease)}
+  @keyframes sheet{from{transform:translateY(100%)}}
+  .su__hd{padding:10px 16px 0 20px}
+  .su__handle{display:block; width:40px; height:4px; border-radius:4px; background:var(--paper-line); margin:0 auto 8px}
+  .su__body{padding:16px 20px 16px; gap:18px}
+  .su__foot{padding:12px 20px calc(16px + env(safe-area-inset-bottom,0px)); gap:10px}
+  .su h2{font-size:26px}
+  .row2,.upl{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important; animation-iteration-count:1!important; transition-duration:.001ms!important; scroll-behavior:auto!important}
+  .rv{animation:none!important}
+}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6l8-3z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+    <symbol id="i-vault" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="12" cy="12" r="3.5"/><path d="M12 8.5V7M12 17v-1.5M15.5 12H17M7 12h1.5"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.3L12 17.1l-5.7 3.1 1.2-6.3L2.8 9.5l6.4-.8z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-news" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h13v14H6a2 2 0 01-2-2V5z"/><path d="M17 9h3v8a2 2 0 01-2 2"/><path d="M7.5 9h6M7.5 12.5h6M7.5 16h4"/></symbol>
+    <symbol id="i-wallet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7a2 2 0 012-2h11v4"/><rect x="4" y="7" width="16" height="12" rx="2.5"/><circle cx="16" cy="13" r="1.3" fill="currentColor"/></symbol>
+    <symbol id="i-floor" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><path d="M5 8l5 5 3-3 6 6"/><path d="M19 12v4h-4"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3L5 13.5h6L10 21l8-10.5h-6L13 3z"/></symbol>
+    <symbol id="i-desk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></symbol>
+    <symbol id="i-candles" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M6 4v16M12 3v18M18 6v12"/><rect x="4" y="8" width="4" height="7" rx="1" fill="currentColor"/><rect x="10" y="6" width="4" height="9" rx="1"/><rect x="16" y="9" width="4" height="5" rx="1" fill="currentColor"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 18.5h3"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V8a4 4 0 018 0v2.5"/><circle cx="12" cy="15.5" r="1.4" fill="currentColor"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l9.5 16.5h-19L12 3.5z"/><path d="M12 10v4.5M12 17.5v.01"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-id" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><circle cx="9" cy="11" r="2.2"/><path d="M5.8 16c.6-1.5 1.8-2.3 3.2-2.3s2.6.8 3.2 2.3M14.5 10h4M14.5 13.5h3"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11l8-6.5 8 6.5V20H4z"/><path d="M9.5 20v-5h5v5"/></symbol>
+    <symbol id="c-gold" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#D9A93A"/><path d="M6.5 15.5l1.6-5h7.8l1.6 5z" fill="#F6DA8B"/><path d="M9 10.5l1-3h4l1 3z" fill="#F6DA8B"/></symbol>
+    <symbol id="c-oil" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#2A323D"/><path d="M12 5.5c2.6 3.4 4.2 5.8 4.2 7.9a4.2 4.2 0 01-8.4 0c0-2.1 1.6-4.5 4.2-7.9z" fill="#F5F5F5"/></symbol>
+  </defs>
+</svg>
+
+<header class="hdr" id="hdr">
+  <div class="wrap hdr__in">
+    <a class="hdr__logo" href="#top" aria-label="TradeQuo home"><img src="data:image/png;base64,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" alt="TradeQuo" width="199" height="24"></a>
+    <nav class="hdr__nav" aria-label="Page sections">
+      <a href="#markets">Markets</a>
+      <a href="#how">How it works</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="hdr__act">
+      <button class="hdr__login" type="button" data-open="gold" data-view="login">Log in</button>
+      <button class="btn btn--primary btn--sm" data-open="gold">Start Trading</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero" aria-labelledby="h1">
+  <div class="hero__grid-bg"></div><div class="hero__glow"></div>
+  <div class="wrap hero__in">
+    <div class="hero__copy">
+      <div data-in style="--d:0"><span class="live"><span class="dot" aria-hidden="true"></span><span>Gold &amp; Oil are open</span><span class="muted" data-clock>now</span></span></div>
+      <h1 id="h1" data-in style="--d:1"><span>Weekend Plans?</span><span>Add <em class="hl">Gold &amp; Oil.</em></span></h1>
+      <p class="hero__sub" data-in style="--d:2"><strong>Trade Gold 24/7 and Oil 24/7, even on weekends.</strong> When news breaks on a Saturday, you can act on it on Saturday.</p>
+      <div class="cta-row" data-in style="--d:3" id="heroCtas">
+        <button class="btn btn--primary btn--lg" data-open="gold">Start Trading <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <button class="btn btn--inverse btn--lg" data-open="gold" data-mode="demo">Try Demo</button>
+      </div>
+      <p class="risk-micro" data-in style="--d:4">Trading involves risk. 72.6% of retail CFD accounts lose money. <a href="#risk">Read the risk warning</a></p>
+      <div class="trust" data-in style="--d:5" aria-label="Why you can trust TradeQuo">
+        <span class="trust__i"><svg aria-hidden="true"><use href="#i-shield"/></svg><span><b>Regulated</b> FSA · FSCA</span></span>
+        <span class="trust__i"><svg aria-hidden="true"><use href="#i-vault"/></svg><span><b>Proof of Reserves</b></span></span>
+        <span class="trust__i"><svg class="trust__star" aria-hidden="true"><use href="#i-star"/></svg><span><b>4.9</b> client rating</span></span>
+      </div>
+    </div>
+
+    <div class="mcard" aria-label="Indicative Gold and Oil prices">
+      <div class="mcard__top">
+        <div class="seg" role="tablist" aria-label="Choose market" id="heroSeg">
+          <span class="seg__thumb" aria-hidden="true"></span>
+          <button role="tab" aria-selected="true" data-mkt="gold"><svg class="chip-ico" aria-hidden="true"><use href="#c-gold"/></svg>Gold</button>
+          <button role="tab" aria-selected="false" data-mkt="oil"><svg class="chip-ico" aria-hidden="true"><use href="#c-oil"/></svg>Oil</button>
+        </div>
+        <span class="mcard__open"><span class="dot" aria-hidden="true"></span>Open 24/7</span>
+      </div>
+      <div class="mcard__q">
+        <div>
+          <div class="mcard__name" id="mName">Gold</div>
+          <div class="mcard__sym" id="mSym">XAU/USD · Spot Gold CFD</div>
+        </div>
+        <div class="mcard__price">
+          <div class="mcard__px num" id="mPx">0.00</div>
+          <span class="chg chg--up num" id="mChg">+0.00%</span>
+        </div>
+      </div>
+      <svg class="chart" id="chart" viewBox="0 0 560 230" role="img" aria-label="Seven-day price line; weekend sessions shaded and open">
+        <defs><linearGradient id="areaGrad" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#E7141B" stop-opacity=".28"/><stop offset="1" stop-color="#E7141B" stop-opacity="0"/></linearGradient></defs>
+        <g id="cGrid"></g><g id="cWk"></g>
+        <path class="area" id="cArea" d=""/>
+        <path class="line" id="cLine" d="" pathLength="1"/>
+        <circle class="now-halo" id="cHalo" r="9" cx="0" cy="0"/><circle class="now" id="cDot" r="4.5" cx="0" cy="0"/>
+        <g id="cDays"></g>
+      </svg>
+      <div class="mcard__foot">
+        <span class="mcard__note">Indicative prices · demo data · last 7 days</span>
+        <button class="linkbtn" data-open="gold" id="mCta">Trade Gold 24/7 <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band--paper" aria-labelledby="h-week">
+  <div class="wrap week">
+    <div class="week__copy rv">
+      <span class="eyebrow">Why 24/7 matters</span>
+      <h2 id="h-week" class="h2">News doesn't wait for Monday.</h2>
+      <p class="week__lead">OPEC+ meetings, geopolitical headlines and central bank comments can land on a Saturday. Most brokers close Gold and Oil from Friday night to Sunday night. With TradeQuo you can open, adjust or close a position while it happens.</p>
+      <div class="facts">
+        <div class="fact"><b class="num">168h</b><span>of market access every week</span></div>
+        <div class="fact"><b class="num">+48h</b><span>of weekend sessions added</span></div>
+        <div class="fact"><b class="num">1</b><span>account for both markets</span></div>
+      </div>
+    </div>
+    <div class="tl rv" id="tl" aria-label="Weekly trading hours compared">
+      <div class="tl__days" aria-hidden="true"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span class="we">Sat</span><span class="we">Sun</span></div>
+      <div class="tl__row">
+        <div class="tl__lbl"><span>Typical Gold &amp; Oil CFD hours</span><small>Mon–Fri</small></div>
+        <div class="tl__track"><div class="tl__bar tl__bar--std"></div><div class="tl__closed">Closed</div></div>
+      </div>
+      <div class="tl__row tl__row--last">
+        <div class="tl__lbl"><span>TradeQuo Gold &amp; Oil</span><small>24/7</small></div>
+        <div class="tl__track"><div class="tl__bar tl__bar--tq"></div></div>
+      </div>
+      <div class="tl__now" id="tlNow" aria-hidden="true"><span class="tl__now-tag" id="tlTag">Now</span></div>
+      <div class="tl__legend"><span>Times shown in your local time zone</span><span><b>Red</b> = sessions most brokers keep closed</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="band band--ink" id="markets" aria-labelledby="h-mk">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow">Gold &amp; Oil</span>
+      <h2 id="h-mk">Two markets. One account. <span class="hl">Open all week.</span></h2>
+      <p>Trade both as CFDs. You speculate on the price going up or down without owning the metal or the barrel.</p>
+    </div>
+    <div class="markets">
+      <article class="pcard pcard--gold rv">
+        <div class="pcard__glow"></div>
+        <svg class="pcard__art" viewBox="0 0 260 220" aria-hidden="true">
+          <defs>
+            <linearGradient id="gTop" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBE7A8"/><stop offset="1" stop-color="#D9A93A"/></linearGradient>
+            <linearGradient id="gFront" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9A93A"/><stop offset="1" stop-color="#9C7020"/></linearGradient>
+            <linearGradient id="gSide" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#B98A2A"/><stop offset="1" stop-color="#7E5914"/></linearGradient>
+            <linearGradient id="gShine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+            <clipPath id="gClip"><path d="M70 120l30-34h120l-20 34zM70 120h130v40H70zM200 120l20-34v38l-20 36z"/><path d="M40 168l30-34h120l-20 34zM40 168h130v40H40zM170 168l20-34v38l-20 36z"/></clipPath>
+          </defs>
+          <g>
+            <path d="M70 120l30-34h120l-20 34z" fill="url(#gTop)"/><path d="M70 120h130v40H70z" fill="url(#gFront)"/><path d="M200 120l20-34v38l-20 36z" fill="url(#gSide)"/>
+            <text x="135" y="146" text-anchor="middle" font-size="11" font-weight="800" fill="#7E5914" letter-spacing="2" font-family="Inter,sans-serif">999.9</text>
+            <path d="M40 168l30-34h120l-20 34z" fill="url(#gTop)"/><path d="M40 168h130v40H40z" fill="url(#gFront)"/><path d="M170 168l20-34v38l-20 36z" fill="url(#gSide)"/>
+            <text x="105" y="194" text-anchor="middle" font-size="11" font-weight="800" fill="#7E5914" letter-spacing="2" font-family="Inter,sans-serif">FINE GOLD</text>
+            <g clip-path="url(#gClip)"><rect class="shine" x="0" y="60" width="70" height="170" fill="url(#gShine)" transform="skewX(-20)"/></g>
+          </g>
+        </svg>
+        <span class="pcard__tag"><span class="dot" aria-hidden="true"></span>Open 24/7</span>
+        <h3>Gold<small>XAU/USD · Spot Gold CFD</small></h3>
+        <p>The classic safe-haven asset. Traders watch it when the US dollar, interest rate expectations or global risk sentiment shift.</p>
+        <dl class="specs">
+          <div><dt>Trading hours</dt><dd>24/7, incl. weekends</dd></div>
+          <div><dt>Instrument</dt><dd>CFD on spot gold</dd></div>
+          <div><dt>Min. trade size</dt><dd class="num">0.01 lot †</dd></div>
+          <div><dt>Moves on</dt><dd>USD, rates, risk mood</dd></div>
+        </dl>
+        <div class="cta-row"><button class="btn btn--primary" data-open="gold">Trade Gold <svg aria-hidden="true"><use href="#i-arrow"/></svg></button></div>
+      </article>
+
+      <article class="pcard pcard--oil rv">
+        <div class="pcard__glow"></div>
+        <svg class="pcard__art" viewBox="0 0 260 220" aria-hidden="true">
+          <defs>
+            <linearGradient id="oDrop" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3A4452"/><stop offset=".6" stop-color="#151B23"/><stop offset="1" stop-color="#05080C"/></linearGradient>
+            <linearGradient id="oSheen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7FA3C8" stop-opacity=".7"/><stop offset=".5" stop-color="#B08AC8" stop-opacity=".35"/><stop offset="1" stop-color="#E7141B" stop-opacity=".25"/></linearGradient>
+            <clipPath id="oClip"><path d="M150 26c34 44 56 76 56 104a56 56 0 01-112 0c0-28 22-60 56-104z"/></clipPath>
+          </defs>
+          <g class="drop-bob">
+            <path d="M150 26c34 44 56 76 56 104a56 56 0 01-112 0c0-28 22-60 56-104z" fill="url(#oDrop)" stroke="#2C3542" stroke-width="1.5"/>
+            <g clip-path="url(#oClip)"><path class="wave" d="M60 150 q20 -10 40 0 t40 0 t40 0 t40 0 t40 0 v80 h-200z" fill="url(#oSheen)" opacity=".55"/></g>
+            <path d="M126 96c-8 12-12 22-12 32" stroke="#F5F5F5" stroke-opacity=".55" stroke-width="5" fill="none" stroke-linecap="round"/>
+          </g>
+          <ellipse cx="150" cy="206" rx="48" ry="6" fill="#000" opacity=".5"/>
+        </svg>
+        <span class="pcard__tag"><span class="dot" aria-hidden="true"></span>Open 24/7</span>
+        <h3>Oil<small>USOIL · WTI Crude Oil CFD</small></h3>
+        <p>The world's most traded commodity. Prices react to OPEC+ decisions, supply disruptions and global demand data.</p>
+        <dl class="specs">
+          <div><dt>Trading hours</dt><dd>24/7, incl. weekends</dd></div>
+          <div><dt>Instrument</dt><dd>CFD on WTI crude</dd></div>
+          <div><dt>Min. trade size</dt><dd class="num">0.01 lot †</dd></div>
+          <div><dt>Moves on</dt><dd>OPEC+, supply, demand</dd></div>
+        </dl>
+        <div class="cta-row"><button class="btn btn--primary" data-open="oil">Trade Oil <svg aria-hidden="true"><use href="#i-arrow"/></svg></button></div>
+      </article>
+    </div>
+    <p class="foot-note">† Illustrative. Final trading conditions, spreads and leverage depend on your account type and the regulated entity you open your account with. Spreads can be wider during weekend sessions.</p>
+  </div>
+</section>
+
+<section class="band band--paper" aria-labelledby="h-ben">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow">What you get</span>
+      <h2 id="h-ben">Built for traders who don't clock out on Friday.</h2>
+    </div>
+    <div class="bens">
+      <article class="ben rv"><div class="ben__ico"><svg aria-hidden="true"><use href="#i-news"/></svg></div><h3>React when news breaks</h3><p>Weekend headlines no longer have to wait for Monday's open. Manage your Gold and Oil positions any day of the week.</p></article>
+      <article class="ben rv"><div class="ben__ico"><svg aria-hidden="true"><use href="#i-wallet"/></svg></div><h3>One account, both markets</h3><p>Same login, same balance, same platform. Switch between Gold and Oil in a tap.</p></article>
+      <article class="ben rv"><div class="ben__ico"><svg aria-hidden="true"><use href="#i-floor"/></svg></div><h3>Negative balance protection</h3><p>Your account balance can't fall below zero, even if the market gaps against you.</p></article>
+      <article class="ben rv"><div class="ben__ico"><svg aria-hidden="true"><use href="#i-bolt"/></svg></div><h3>Fast withdrawals</h3><p>Request a withdrawal any time and choose from multiple payment methods.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="band band--ink" aria-labelledby="h-plat">
+  <div class="wrap plat">
+    <div class="plat__copy rv">
+      <span class="eyebrow">Platforms</span>
+      <h2 id="h-plat" class="h2">Trade the weekend from the platform you already know.</h2>
+      <div class="ptabs" role="tablist" aria-label="Choose platform" id="ptabs">
+        <button class="ptab" role="tab" aria-selected="true" data-p="mt5"><span class="ptab__k"><svg aria-hidden="true"><use href="#i-desk"/></svg></span><b>MetaTrader 5</b><span>Desktop &amp; web. One-click trading and advanced order types.</span></button>
+        <button class="ptab" role="tab" aria-selected="false" data-p="tv"><span class="ptab__k"><svg aria-hidden="true"><use href="#i-candles"/></svg></span><b>TradingView</b><span>Trade straight from TradingView charts with Supercharts.</span></button>
+        <button class="ptab" role="tab" aria-selected="false" data-p="app"><span class="ptab__k"><svg aria-hidden="true"><use href="#i-phone"/></svg></span><b>Mobile app</b><span>Price alerts and positions in your pocket, Saturday included.</span></button>
+      </div>
+    </div>
+    <div class="stage rv" id="stage" data-view="desktop" aria-hidden="true">
+      <div class="win">
+        <div class="win__bar"><i></i><i></i><i></i><b id="winTitle">MetaTrader 5 · XAUUSD, H1</b><span class="tag">Sat · Open</span></div>
+        <div class="win__body">
+          <div class="win__chart"><canvas id="cv1"></canvas></div>
+          <div class="win__side">
+            <div class="row"><span>Symbol</span><b>XAUUSD</b></div>
+            <div class="row"><span>Session</span><b>24/7</b></div>
+            <div class="row"><span>Volume</span><b class="num">0.10</b></div>
+            <div class="row"><span>Stop loss</span><b>Set</b></div>
+            <div class="ord"><span class="s">SELL</span><span class="b">BUY</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="phone">
+        <span class="phone__notch"></span>
+        <div class="phone__h"><b>USOIL</b><span>Sat · Open</span></div>
+        <div><div class="phone__px num">64.82</div><span class="chg chg--up" style="font-size:11px;padding:2px 8px">+0.42%</span></div>
+        <canvas id="cv2"></canvas>
+        <div class="ord"><span class="s">SELL</span><span class="b">BUY</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band--white" id="how" aria-labelledby="h-how">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow">Fast Start</span>
+      <h2 id="h-how">Get verified &amp; start trading in about 3 minutes.</h2>
+      <p>Here is exactly what happens after you tap Start Trading. No surprises, no paperwork by post.</p>
+    </div>
+    <div class="steps" role="list">
+      <div class="step rv" role="listitem"><span class="step__n">1</span><div class="step__t"><h3>Sign up</h3><span class="step__time"><svg aria-hidden="true"><use href="#i-clock"/></svg>~1 min</span></div><p>Email, country and a password. Pick Gold, Oil or both so your platform opens on the right market.</p></div>
+      <div class="step rv" role="listitem"><span class="step__n">2</span><div class="step__t"><h3>Verify documents</h3><span class="step__time"><svg aria-hidden="true"><use href="#i-clock"/></svg>~1 min</span></div><p>Upload a photo ID and a proof of address. Required by regulation to keep your account and funds secure.</p></div>
+      <div class="step rv" role="listitem"><span class="step__n">3</span><div class="step__t"><h3>Fund &amp; trade</h3><span class="step__time"><svg aria-hidden="true"><use href="#i-clock"/></svg>~1 min</span></div><p>Deposit with your preferred method and place your first Gold or Oil trade, weekday or weekend.</p></div>
+    </div>
+    <div class="steps-cta rv">
+      <p>Not ready to fund yet?<span>Open a free demo account and practise weekend trading with virtual funds.</span></p>
+      <div class="cta-row">
+        <button class="btn btn--primary" data-open="gold">Start Trading <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <button class="btn btn--inverse" data-open="gold" data-mode="demo">Try Demo</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band--paper" aria-labelledby="h-trust">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow">Why TradeQuo</span>
+      <h2 id="h-trust">Your funds are verified &amp; protected.</h2>
+      <p>Trading at weekends shouldn't mean trading with less protection. The same safeguards apply seven days a week.</p>
+    </div>
+    <div class="tgrid">
+      <article class="tcard tcard--reg rv">
+        <div class="tcard__ico"><svg aria-hidden="true"><use href="#i-shield"/></svg></div>
+        <h3>Regulated in multiple jurisdictions</h3>
+        <p>TradeQuo group entities hold licences from financial regulators. Your entity is confirmed during sign-up based on your country.</p>
+        <div class="lic">
+          <div><b>FSA · Seychelles</b><span>Licence SD140</span></div>
+          <div><b>FSCA · South Africa</b><span>FSP 54827</span></div>
+          <div class="soon"><b>SFC · Colombia</b><span>Coming soon</span></div>
+        </div>
+      </article>
+      <article class="tcard rv"><div class="tcard__ico"><svg aria-hidden="true"><use href="#i-vault"/></svg></div><h3>Proof of Reserves</h3><p>Your funds are fully backed and verifiable through our Proof of Reserves framework.</p></article>
+      <article class="tcard rv"><div class="tcard__ico"><svg aria-hidden="true"><use href="#i-globe"/></svg></div><h3>Top liquidity providers</h3><p>Pricing sourced from liquidity providers in the UK, Singapore, UAE and Australia.</p></article>
+      <article class="tcard rv"><div class="tcard__ico"><svg aria-hidden="true"><use href="#i-lock"/></svg></div><h3>Security &amp; 2FA</h3><p>Continuous security monitoring and two-factor authentication on every account.</p></article>
+      <article class="tcard rv">
+        <div class="rating"><b class="num">4.9</b><span class="stars" aria-label="4.9 out of 5"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span></div>
+        <p>Average client rating. <a href="https://www.trustpilot.com/" target="_blank" rel="noopener" style="color:var(--ink); font-weight:600; text-underline-offset:3px">Read reviews on Trustpilot</a></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="band band--white" id="faq" aria-labelledby="h-faq">
+  <div class="wrap faq">
+    <div class="sec-head">
+      <span class="eyebrow">FAQ</span>
+      <h2 id="h-faq">Weekend trading, explained.</h2>
+      <p>The questions traders ask before their first Saturday trade.</p>
+      <p class="faq__help">Still unsure? Our multilingual team is on <b>support@tradequo.com</b></p>
+    </div>
+    <div class="acc" id="acc">
+      <div class="acc__i"><button class="acc__q" aria-expanded="true" aria-controls="a1" id="q1">Can I really trade Gold and Oil on Saturday and Sunday?<span class="acc__pm" aria-hidden="true"></span></button><div class="acc__a" id="a1" role="region" aria-labelledby="q1"><div><p>Yes. Gold (XAU/USD) and Oil (USOIL) CFDs are available 24/7, including weekends. Short scheduled maintenance breaks may apply; the platform always shows the current session status.</p></div></div></div>
+      <div class="acc__i"><button class="acc__q" aria-expanded="false" aria-controls="a2" id="q2">Are spreads different on weekends?<span class="acc__pm" aria-hidden="true"></span></button><div class="acc__a" id="a2" role="region" aria-labelledby="q2"><div><p>They can be. Fewer participants trade at weekends, so spreads may be wider than on weekdays. You always see the live spread in the platform before you place a trade.</p></div></div></div>
+      <div class="acc__i"><button class="acc__q" aria-expanded="false" aria-controls="a3" id="q3">What happens when the main market reopens on Monday?<span class="acc__pm" aria-hidden="true"></span></button><div class="acc__a" id="a3" role="region" aria-labelledby="q3"><div><p>Weekend prices reflect weekend trading. When the main market reopens, prices can move sharply (a "gap"), and stop orders may be filled at a different price than you set. Size your positions with this in mind.</p></div></div></div>
+      <div class="acc__i"><button class="acc__q" aria-expanded="false" aria-controls="a4" id="q4">Do I need a separate account for weekend trading?<span class="acc__pm" aria-hidden="true"></span></button><div class="acc__a" id="a4" role="region" aria-labelledby="q4"><div><p>No. Weekend sessions are part of your normal TradeQuo account. Same balance, same platform, same login.</p></div></div></div>
+      <div class="acc__i"><button class="acc__q" aria-expanded="false" aria-controls="a5" id="q5">Can I try it before depositing?<span class="acc__pm" aria-hidden="true"></span></button><div class="acc__a" id="a5" role="region" aria-labelledby="q5"><div><p>Yes. Open a free demo account with virtual funds and try weekend trading without risking real money.</p></div></div></div>
+      <div class="acc__i"><button class="acc__q" aria-expanded="false" aria-controls="a6" id="q6">What do I need to sign up?<span class="acc__pm" aria-hidden="true"></span></button><div class="acc__a" id="a6" role="region" aria-labelledby="q6"><div><p>An email address, a valid photo ID and a recent proof of address. Most people finish verification in a few minutes.</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="band band--ink final" aria-labelledby="h-final" id="final">
+  <div class="final__bg" aria-hidden="true"><span>24/7</span></div>
+  <div class="wrap final__in rv">
+    <span class="live"><span class="dot" aria-hidden="true"></span><span data-clock-long>Gold &amp; Oil are open now</span></span>
+    <h2 id="h-final">Weekend Plans? Add <span class="hl">Gold &amp; Oil.</span></h2>
+    <p class="lead">Sign up in about a minute. Trade when the market moves.</p>
+    <div class="cta-row" id="finalCtas">
+      <button class="btn btn--primary btn--lg" data-open="gold">Start Trading <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      <button class="btn btn--inverse btn--lg" data-open="gold" data-mode="demo">Try Demo</button>
+    </div>
+    <p class="risk-micro">Trading involves risk. <a href="#risk">Read the risk warning</a></p>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__top">
+      <img src="data:image/png;base64,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" alt="TradeQuo" width="182" height="22">
+      <nav class="foot__links" aria-label="Footer"><a href="#markets">Markets</a><a href="#how">How it works</a><a href="#faq">FAQ</a><a href="https://tradequo.com/company/legal" target="_blank" rel="noopener">Legal documents</a><a href="https://tradequo.com/company/contact-us" target="_blank" rel="noopener">Contact</a></nav>
+    </div>
+    <div class="riskbox" id="risk" tabindex="-1">
+      <svg aria-hidden="true"><use href="#i-alert"/></svg>
+      <p><b>Risk warning: Trading involves risk.</b>CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 72.6% of retail investor accounts lose money when trading CFDs with this provider. Weekend sessions may have wider spreads and prices may gap when the underlying market reopens.</p>
+    </div>
+    <div class="foot__legal">
+      <p><b>Regional restrictions.</b> This website is not directed at, or intended for use by, citizens or residents of the USA, Israel, Iran, Iraq, Russia, Afghanistan, Cuba, Cyprus, Eritrea, Liberia, Libya, Somalia or Syria, or any jurisdiction where such use would be contrary to local law. TradeQuo and its affiliates do not target EEA clients.</p>
+      <div class="foot__ents">
+        <p><b>Tradequomarkets Financial Services L.L.C</b> is regulated by the UAE Securities and Commodities Authority, Licence No. 20200000320, Category 5 (financial consultations and introductions). Business Tower, Main Business Village, 114499 Dubai, UAE.</p>
+        <p><b>Trade Quo Global Ltd</b> is a securities dealer regulated by the Financial Services Authority of Seychelles, licence SD140.</p>
+        <p><b>Tradequo (PTY) Ltd</b> is licensed by the Financial Sector Conduct Authority of South Africa, FSP 54827. 33rd Floor, 34 Whiteley Road, 2196, Johannesburg.</p>
+        <p><b>Tradequomarkets LTD</b> (2023/C0024), #8 Jepson Lane, St. George, Goodwill, Commonwealth of Dominica.</p>
+        <p><b>Quo Markets LLC</b> is registered with the Financial Services Authority, 3171 LLC 2024. Suite 305, Griffith Corporate Centre, Beachmont, Kingstown, SVG.</p>
+        <p><b>Tqbg Ltd</b>, registered in Cyprus (HE438084), Archiespiskopou Makariou III 160, 1st floor, 3026, Limassol, is an appointed payment agent and does not engage in regulated activities.</p>
+      </div>
+      <p>Full details in our <a href="https://tradequo.com/company/legal" target="_blank" rel="noopener">Legal Documents</a>. Questions? <a href="https://tradequo.com/company/contact-us" target="_blank" rel="noopener">Contact Us</a>.</p>
+    </div>
+    <div class="foot__bottom"><span>© 2026 Trade Quo. All rights reserved.</span></div>
+  </div>
+</footer>
+
+<div class="mcta" id="mcta" aria-hidden="true">
+  <button class="btn btn--primary btn--block" data-open="gold" tabindex="-1">Start Trading <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+  <p>Trading involves risk</p>
+</div>
+
+<dialog class="su" id="su" aria-labelledby="suTitle" data-mode="live" data-view="signup">
+  <aside class="su__aside" aria-hidden="true">
+    <img src="data:image/png;base64,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" alt="" width="182" height="22">
+    <span class="eyebrow for-signup">Fast Start</span>
+    <span class="eyebrow for-login">Log in</span>
+    <h3><span class="for-signup">You're about 3 minutes from your first weekend trade.</span><span class="for-login">Welcome back. Gold &amp; Oil are open now.</span></h3>
+    <ol class="vsteps for-signup">
+      <li data-st="1" class="cur"><span class="vs__n"><i>1</i><svg><use href="#i-check"/></svg></span><div><b>Sign up</b><span>Email, country, password · ~1 min</span></div></li>
+      <li data-st="2"><span class="vs__n"><i>2</i><svg><use href="#i-check"/></svg></span><div><b>Verify</b><span>Photo ID and proof of address · ~1 min</span></div></li>
+      <li data-st="3"><span class="vs__n"><i>3</i><svg><use href="#i-check"/></svg></span><div><b data-st3>Fund &amp; trade</b><span data-st3d>Gold &amp; Oil, 24/7 incl. weekends · ~1 min</span></div></li>
+    </ol>
+    <span class="live for-login su__live"><span class="dot"></span><span>Open 24/7</span><span class="muted" data-clock>now</span></span>
+    <div class="su__trust">
+      <div><svg><use href="#i-shield"/></svg><span><b>Regulated</b> · FSA · FSCA</span></div>
+      <div><svg><use href="#i-vault"/></svg><span><b>Proof of Reserves</b></span></div>
+      <div><svg><use href="#i-lock"/></svg><span><b>Encrypted</b> · 2FA on every account</span></div>
+    </div>
+  </aside>
+
+  <div class="su__main">
+    <div class="su__hd">
+      <span class="su__handle" aria-hidden="true"></span>
+      <div class="su__hdrow">
+        <img class="su__hdlogo" src="data:image/png;base64,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" alt="TradeQuo" width="149" height="18">
+        <span class="su__steplbl" id="suStepLbl" aria-live="polite">Step 1 of 3 · Sign up</span>
+        <button class="su__x" id="suClose" type="button" aria-label="Close"><svg aria-hidden="true"><use href="#i-x"/></svg></button>
+      </div>
+      <ol class="prog" aria-hidden="true"><li data-st="1" class="cur"></li><li data-st="2"></li><li data-st="3"></li></ol>
+    </div>
+
+    <form class="su__step" id="s1" novalidate>
+      <div class="su__body">
+        <div>
+          <h2 id="suTitle" tabindex="-1">Create your account</h2>
+          <p class="su__lead" id="suLead">Takes about a minute. You can trade Gold &amp; Oil 24/7 once you're verified.</p>
+        </div>
+        <div>
+          <span class="flabel" id="pickLbl">I want to trade</span>
+          <div class="picks" role="group" aria-labelledby="pickLbl">
+            <button type="button" class="pick" data-pick="gold" aria-pressed="true"><span class="ck"><svg><use href="#i-check"/></svg></span><svg class="chip-ico" aria-hidden="true"><use href="#c-gold"/></svg>Gold 24/7</button>
+            <button type="button" class="pick" data-pick="oil" aria-pressed="false"><span class="ck"><svg><use href="#i-check"/></svg></span><svg class="chip-ico" aria-hidden="true"><use href="#c-oil"/></svg>Oil 24/7</button>
+          </div>
+        </div>
+        <div class="fld"><label for="f-email">Email</label><input id="f-email" type="email" autocomplete="email" required placeholder="you@example.com"><span class="err">Enter a valid email, e.g. name@example.com</span></div>
+        <div class="row2">
+          <div class="fld"><label for="f-country">Country of residence</label>
+            <select id="f-country" required autocomplete="country-name">
+              <option value="">Select country</option><option>Colombia</option><option>Mexico</option><option>South Africa</option><option>United Arab Emirates</option><option>Seychelles</option><option>Other</option>
+            </select>
+          </div>
+          <div class="fld"><label for="f-pw">Password</label><div class="pw"><input id="f-pw" type="password" minlength="8" required autocomplete="new-password" placeholder="8+ characters"><button type="button" aria-label="Show password">Show</button></div><span class="err" id="pwErr" hidden>Use at least 8 characters.</span></div>
+        </div>
+        <label class="chk" for="f-ok"><input id="f-ok" type="checkbox" required><span>I understand that CFDs are complex instruments and that trading involves risk. I accept the Terms and Privacy Policy.</span></label>
+        <p class="proto">Prototype flow · no data is sent</p>
+      </div>
+      <div class="su__foot">
+        <button class="btn btn--primary btn--lg btn--block" type="submit" id="s1Btn">Create account <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <div class="su__alt"><span>Have an account? <button type="button" id="toLogin">Log in</button></span><button type="button" id="toDemo">Practise on demo first</button></div>
+        <p class="su__risk"><b>Trading involves risk.</b> 72.6% of retail investor accounts lose money when trading CFDs with this provider.</p>
+      </div>
+    </form>
+
+    <section class="su__step" id="s2" hidden aria-labelledby="s2Title">
+      <div class="su__body">
+        <div><h2 id="s2Title" tabindex="-1">Verify your identity</h2><p class="su__lead">Required by regulation before your first deposit. It usually takes about a minute.</p></div>
+        <div class="upl">
+          <button type="button"><svg aria-hidden="true"><use href="#i-id"/></svg>Photo ID<span>Passport, ID card or driving licence</span></button>
+          <button type="button"><svg aria-hidden="true"><use href="#i-home"/></svg>Proof of address<span>Utility bill or bank statement, last 3 months</span></button>
+        </div>
+        <div class="note"><svg aria-hidden="true"><use href="#i-lock"/></svg><span>Your documents are encrypted and only used to verify your identity.</span></div>
+        <p class="proto">Tap each card to simulate an upload.</p>
+      </div>
+      <div class="su__foot">
+        <button class="btn btn--primary btn--lg btn--block" type="button" id="s2Btn" disabled>Submit documents <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <div class="su__alt"><span>Don't have them to hand?</span><button type="button" id="skipV">I'll verify later</button></div>
+      </div>
+    </section>
+
+    <section class="su__step" id="s3" hidden aria-labelledby="s3Title">
+      <div class="su__body">
+        <span class="okmark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+        <div><h2 id="s3Title" tabindex="-1">Documents submitted</h2><p class="su__lead" id="s3Lead">Most checks finish in a few minutes.</p></div>
+        <div class="nextcard"><span class="n" id="s3N">3</span><div><b id="s3NextT">Fund your account</b><span id="s3NextD">Choose a payment method.</span></div></div>
+      </div>
+      <div class="su__foot">
+        <button class="btn btn--primary btn--lg btn--block" type="button" id="s3Btn">Make a deposit <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <div class="su__alt" id="s3Alt"><span>Prefer to practise first?</span><button type="button" id="s3Demo">Open demo account</button></div>
+      </div>
+    </section>
+
+    <form class="su__step" id="sL" hidden novalidate aria-labelledby="sLTitle">
+      <div class="su__body">
+        <div><h2 id="sLTitle" tabindex="-1">Welcome back</h2><p class="su__lead">Log in to trade Gold &amp; Oil 24/7, including this weekend.</p></div>
+        <div class="fld"><label for="l-email">Email</label><input id="l-email" type="email" autocomplete="username" required placeholder="you@example.com"><span class="err">Enter the email you signed up with.</span></div>
+        <div class="fld"><label for="l-pw">Password</label><div class="pw"><input id="l-pw" type="password" required autocomplete="current-password" placeholder="Your password"><button type="button" aria-label="Show password">Show</button></div>
+          <div class="fld__meta"><button type="button" class="su__lnk" id="forgot">Forgot password?</button></div>
+        </div>
+        <p class="note" id="fpNote" hidden><svg aria-hidden="true"><use href="#i-lock"/></svg><span id="fpText"></span></p>
+        <p class="proto">Prototype flow · no data is sent</p>
+      </div>
+      <div class="su__foot">
+        <button class="btn btn--primary btn--lg btn--block" type="submit">Log in <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <div class="su__alt"><span>New to TradeQuo? <button type="button" id="toSignup">Create an account</button></span></div>
+        <p class="su__risk"><b>Trading involves risk.</b> 72.6% of retail investor accounts lose money when trading CFDs with this provider.</p>
+      </div>
+    </form>
+
+    <section class="su__step" id="sL2" hidden aria-labelledby="sL2Title">
+      <div class="su__body">
+        <span class="okmark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+        <div><h2 id="sL2Title" tabindex="-1">You're logged in</h2><p class="su__lead" id="sL2Lead">Gold &amp; Oil are open now.</p></div>
+        <div class="nextcard"><span class="n"><svg width="16" height="16" aria-hidden="true"><use href="#i-arrow"/></svg></span><div><b id="sL2T">Open the platform on Gold</b><span>Weekend sessions are already enabled on your account.</span></div></div>
+      </div>
+      <div class="su__foot">
+        <button class="btn btn--primary btn--lg btn--block" type="button" id="sL2Btn">Open platform <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <div class="su__alt"><span>Not you?</span><button type="button" id="logout">Log out</button></div>
+      </div>
+    </section>
+  </div>
+</dialog>
+<script>
+(()=>{
+const $=(s,c=document)=>c.querySelector(s), $$=(s,c=document)=>[...c.querySelectorAll(s)];
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+const fmtDay=new Intl.DateTimeFormat('en-GB',{weekday:'short'}), fmtLong=new Intl.DateTimeFormat('en-GB',{weekday:'long'});
+const fmtT=new Intl.DateTimeFormat('en-GB',{hour:'2-digit',minute:'2-digit'});
+function tickClock(){
+  const d=new Date(), wk=d.getDay()===0||d.getDay()===6;
+  $$('[data-clock]').forEach(el=>el.textContent=`${wk?'Weekend':''}${wk?' · ':''}${fmtDay.format(d)} ${fmtT.format(d)}`);
+  $$('[data-clock-long]').forEach(el=>el.textContent=`It's ${fmtLong.format(d)}, ${fmtT.format(d)}. Gold & Oil are open.`);
+  placeNow(d);
+}
+
+function placeNow(d){
+  const tl=$('#tl'), now=$('#tlNow'); if(!tl) return;
+  const dow=(d.getDay()+6)%7, h=dow*24+d.getHours()+d.getMinutes()/60;
+  const track=$('.tl__track',tl), tr=track.getBoundingClientRect(), r=tl.getBoundingClientRect();
+  const x=(tr.left-r.left)+tr.width*(h/168);
+  now.style.left=x+'px'; const t2=$$('.tl__track',tl)[1].getBoundingClientRect(); now.style.height=(t2.bottom-r.top)+'px';
+  const tag=$('#tlTag'); tag.textContent=`You · ${fmtDay.format(d)} ${fmtT.format(d)}`;
+  const tw=tag.offsetWidth/2, min=tw+8-x, max=r.width-tw-8-x; tag.style.marginLeft=Math.max(min,Math.min(max,0))+'px';
+}
+tickClock(); setInterval(tickClock,20000); addEventListener('resize',()=>placeNow(new Date())); document.fonts&&document.fonts.ready.then(()=>placeNow(new Date()));
+const tl=$('#tl');
+if(!reduce && 'IntersectionObserver' in window){
+  new IntersectionObserver((es,o)=>es.forEach(e=>{ if(e.isIntersecting){ tl.classList.add('play'); o.disconnect(); } }),{threshold:.45}).observe(tl);
+}
+
+function rng(seed){return()=>{seed|=0; seed=seed+0x6D2B79F5|0; let t=Math.imul(seed^seed>>>15,1|seed); t=t+Math.imul(t^t>>>7,61|t)^t; return((t^t>>>14)>>>0)/4294967296}}
+const MK={
+  gold:{name:'Gold',sym:'XAU/USD · Spot Gold CFD',base:384.50,vol:.0024,dp:2,seed:7,cta:'Trade Gold 24/7'},
+  oil:{name:'Oil',sym:'USOIL · WTI Crude Oil CFD',base:91.07,vol:.0042,dp:2,seed:21,cta:'Trade Oil 24/7'}
+};
+function series(m,n){const r=rng(m.seed); let v=m.base*(1-m.vol*6), out=[]; for(let i=0;i<n;i++){ v+= (r()-.47)*m.base*m.vol + (m.base-v)*.02; out.push(v);} const d=m.base-out[n-1]; return out.map(x=>x+d);}
+
+let W=560,H=230; const PT=26,PB=34, N=85, STEP=2;
+let cur='gold', data=[], open0=0;
+const svgNS='http://www.w3.org/2000/svg';
+const el=(t,a)=>{const e=document.createElementNS(svgNS,t); for(const k in a) e.setAttribute(k,a[k]); return e;};
+function times(){const now=Date.now(); return Array.from({length:N},(_,i)=>new Date(now-(N-1-i)*STEP*3600e3));}
+function renderChart(){
+  const m=MK[cur], ts=times(); const sv=$('#chart'); const cw0=Math.round(sv.getBoundingClientRect().width); if(cw0>200){W=cw0; H=W<480?200:230;} sv.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  const mn=Math.min(...data), mx=Math.max(...data), pad=(mx-mn)*.12||1;
+  const x=i=>i/(N-1)*(W-12), y=v=>PT+(1-(v-(mn-pad))/((mx+pad)-(mn-pad)))*(H-PT-PB);
+
+  const g=$('#cGrid'); g.innerHTML=''; for(let k=0;k<4;k++){const yy=PT+k*(H-PT-PB)/3; g.append(el('line',{x1:0,x2:W,y1:yy,y2:yy,class:'grid'}));}
+
+  const wk=$('#cWk'), dl=$('#cDays'); wk.innerHTML=''; dl.innerHTML='';
+  let s=null;
+  ts.forEach((t,i)=>{const we=t.getDay()===0||t.getDay()===6;
+    if(we&&s===null) s=i;
+    if((!we||i===N-1)&&s!==null){const e=we?i:i-1, x0=Math.max(0,x(s)-((W-12)/(N-1))/2), x1=x(e)+(i===N-1?6:((W-12)/(N-1))/2);
+      wk.append(el('rect',{x:x0,y:PT-14,width:x1-x0,height:H-PT-PB+14,class:'wk',rx:6}));
+      wk.append(el('line',{x1:x0,x2:x0,y1:PT-14,y2:H-PB,class:'wk-edge'}));
+      const lb=el('text',{x:x0+8,y:PT-2,class:'wk-lbl'}); lb.textContent='WEEKEND · OPEN'; if(x1-x0>96) wk.append(lb);
+      s=null;}
+    if(t.getHours()<STEP && i>0){const tx=el('text',{x:x(i)+((W-12)/7)/2,y:H-10,'text-anchor':'middle',class:'day'}); tx.textContent=fmtDay.format(t); if(x(i)+((W-12)/7)/2<W-10) dl.append(tx);}
+  });
+  const pts=data.map((v,i)=>[x(i),y(v)]);
+  let d='M'+pts.map(p=>p[0].toFixed(1)+' '+p[1].toFixed(1)).join(' L');
+  const line=$('#cLine'), area=$('#cArea');
+  line.setAttribute('d',d); area.setAttribute('d',d+` L${pts[N-1][0]} ${H-PB} L0 ${H-PB} Z`);
+  const [lx,ly]=pts[N-1]; ['#cDot','#cHalo'].forEach(s=>{$(s).setAttribute('cx',lx);$(s).setAttribute('cy',ly)});
+}
+function setPrice(){
+  const m=MK[cur], v=data[N-1], px=$('#mPx');
+  px.textContent=v.toLocaleString('en-US',{minimumFractionDigits:m.dp,maximumFractionDigits:m.dp});
+  const ch=(v-open0)/open0*100, c=$('#mChg');
+  c.textContent=(ch>=0?'▲ +':'▼ ')+ch.toFixed(2)+'%'; c.className='chg num '+(ch>=0?'chg--up':'chg--down');
+}
+function selectMarket(k){
+  cur=k; const m=MK[k]; data=series(m,N); open0=data[N-1-12];
+  $('#mName').textContent=m.name; $('#mSym').textContent=m.sym;
+  const cta=$('#mCta'); cta.firstChild.nodeValue=m.cta+' '; cta.dataset.open=k;
+  renderChart(); setPrice();
+}
+selectMarket('gold'); let rzT; addEventListener('resize',()=>{clearTimeout(rzT); rzT=setTimeout(()=>renderChart(),120);});
+
+function seg(root,onChange){
+  const btns=$$('[role=tab]',root), th=$('.seg__thumb',root);
+  const move=b=>{ if(!th) return; th.style.width=b.offsetWidth+'px'; th.style.transform=`translateX(${b.offsetLeft-4}px)`; };
+  const pick=(b,focus)=>{ btns.forEach(x=>{x.setAttribute('aria-selected',x===b); x.tabIndex=x===b?0:-1;}); move(b); if(focus) b.focus(); onChange(b); };
+  btns.forEach((b,i)=>{ b.addEventListener('click',()=>pick(b)); b.addEventListener('keydown',e=>{ if(e.key==='ArrowRight'||e.key==='ArrowDown'){e.preventDefault(); pick(btns[(i+1)%btns.length],true);} if(e.key==='ArrowLeft'||e.key==='ArrowUp'){e.preventDefault(); pick(btns[(i-1+btns.length)%btns.length],true);} }); });
+  const sel=btns.find(b=>b.getAttribute('aria-selected')==='true'); btns.forEach(x=>x.tabIndex=x===sel?0:-1);
+  requestAnimationFrame(()=>move(sel)); document.fonts&&document.fonts.ready.then(()=>move(btns.find(b=>b.getAttribute('aria-selected')==='true')));
+  addEventListener('resize',()=>move(btns.find(b=>b.getAttribute('aria-selected')==='true')));
+}
+seg($('#heroSeg'),b=>selectMarket(b.dataset.mkt));
+
+const P={mt5:['MetaTrader 5 · XAUUSD, H1','desktop'],tv:['TradingView · XAUUSD, 1h','desktop'],app:['TradeQuo app · USOIL','mobile']};
+seg($('#ptabs'),b=>{const p=P[b.dataset.p]; $('#winTitle').textContent=p[0]; $('#stage').dataset.view=p[1]; drawCandles($('#cv1'),b.dataset.p==='tv'?31:5);});
+function drawCandles(cv,seed){
+  const dpr=Math.min(devicePixelRatio||1,2), w=cv.clientWidth, h=cv.clientHeight; if(!w||!h) return;
+  cv.width=w*dpr; cv.height=h*dpr; const c=cv.getContext('2d'); c.scale(dpr,dpr); c.clearRect(0,0,w,h);
+  const r=rng(seed), n=Math.max(18,Math.floor(w/11)); let v=100, arr=[];
+  for(let i=0;i<n;i++){const o=v; v+=(r()-.46)*3.2; const hi=Math.max(o,v)+r()*1.6, lo=Math.min(o,v)-r()*1.6; arr.push([o,v,hi,lo]);}
+  const mn=Math.min(...arr.map(a=>a[3])), mx=Math.max(...arr.map(a=>a[2])), Y=q=>8+(1-(q-mn)/(mx-mn))*(h-16), cw=w/n;
+  c.strokeStyle='#232C38'; c.lineWidth=1; for(let k=1;k<4;k++){c.beginPath(); c.moveTo(0,h*k/4); c.lineTo(w,h*k/4); c.stroke();}
+
+  c.fillStyle='rgba(231,20,27,.08)'; c.fillRect(w*.72,0,w*.28,h);
+  c.fillStyle='#FF8A8D'; c.font='600 10px Inter, sans-serif'; c.fillText('WEEKEND', w*.72+6, 14);
+  arr.forEach((a,i)=>{const x=i*cw+cw/2, up=a[1]>=a[0]; c.strokeStyle=c.fillStyle=up?'#3DDC97':'#E7141B';
+    c.beginPath(); c.moveTo(x,Y(a[2])); c.lineTo(x,Y(a[3])); c.stroke();
+    const t=Y(Math.max(a[0],a[1])), b=Y(Math.min(a[0],a[1])); c.fillRect(x-cw*.32,t,cw*.64,Math.max(1.5,b-t));});
+}
+function drawLine(cv,seed){
+  const dpr=Math.min(devicePixelRatio||1,2), w=cv.clientWidth, h=cv.clientHeight; if(!w||!h) return;
+  cv.width=w*dpr; cv.height=h*dpr; const c=cv.getContext('2d'); c.scale(dpr,dpr);
+  const r=rng(seed); let v=50, p=[]; for(let i=0;i<40;i++){v+=(r()-.45)*4; p.push(v);} const mn=Math.min(...p), mx=Math.max(...p);
+  const X=i=>i/39*w, Y=q=>6+(1-(q-mn)/(mx-mn))*(h-12);
+  const gr=c.createLinearGradient(0,0,0,h); gr.addColorStop(0,'rgba(231,20,27,.3)'); gr.addColorStop(1,'rgba(231,20,27,0)');
+  c.beginPath(); p.forEach((q,i)=>i?c.lineTo(X(i),Y(q)):c.moveTo(X(i),Y(q))); c.lineTo(w,h); c.lineTo(0,h); c.fillStyle=gr; c.fill();
+  c.beginPath(); p.forEach((q,i)=>i?c.lineTo(X(i),Y(q)):c.moveTo(X(i),Y(q))); c.strokeStyle='#E7141B'; c.lineWidth=2; c.stroke();
+}
+const drawPlat=()=>{drawCandles($('#cv1'),$('#ptabs [aria-selected=true]').dataset.p==='tv'?31:5); drawLine($('#cv2'),12);};
+drawPlat(); addEventListener('resize',drawPlat); document.fonts&&document.fonts.ready.then(drawPlat);
+
+const hdr=$('#hdr'); const onS=()=>hdr.classList.toggle('is-scrolled',scrollY>24); onS(); addEventListener('scroll',onS,{passive:true});
+const mcta=$('#mcta'); const vis=new Map();
+const upd=()=>{const show=![...vis.values()].some(Boolean) && !$('#su').open; mcta.classList.toggle('show',show && scrollY>200); mcta.setAttribute('aria-hidden',!show); $('button',mcta).tabIndex=show?0:-1;};
+if('IntersectionObserver' in window){ const io=new IntersectionObserver(es=>{es.forEach(e=>vis.set(e.target,e.isIntersecting)); upd();}); ['#heroCtas','#finalCtas','.foot'].forEach(s=>io.observe($(s))); }
+
+$$('.acc__q').forEach(q=>q.addEventListener('click',()=>{ const open=q.getAttribute('aria-expanded')==='true'; q.setAttribute('aria-expanded',!open); }));
+
+const dlg=$('#su'); let mode='live', step=1, view='signup', origin=null, lastMkt='gold';
+const picks=$$('.pick');
+const LBL={live:['Sign up','Verify','Fund & trade'],demo:['Sign up','','Practise']};
+const coarse=matchMedia('(pointer:coarse)').matches;
+const SECS=['#s1','#s2','#s3','#sL','#sL2'];
+function overflow(){ $$('.su__step',dlg).forEach(s=>{ if(s.hidden) return; const b=$('.su__body',s); s.classList.toggle('is-overflow', b.scrollHeight-b.clientHeight-b.scrollTop>4); }); }
+$$('.su__body',dlg).forEach(b=>b.addEventListener('scroll',overflow,{passive:true})); addEventListener('resize',overflow);
+function show(sel){ SECS.forEach(s=>$(s).hidden=s!==sel); const cur=$(sel); $('.su__body',cur).scrollTop=0; requestAnimationFrame(overflow); return cur; }
+function syncSteps(){
+  dlg.dataset.mode=mode; dlg.dataset.view=view;
+  if(view==='login'){ $('#suStepLbl').textContent=$('#sL2').hidden?'Log in':'Logged in'; return; }
+  const total=mode==='demo'?2:3, idx=mode==='demo'&&step===3?2:step;
+  $$('[data-st]',dlg).forEach(li=>{const k=+li.dataset.st; li.classList.toggle('done',k<step); li.classList.toggle('cur',k===step); li.hidden=(mode==='demo'&&k===2);});
+  $('#suStepLbl').textContent=`Step ${idx} of ${total} · ${LBL[mode][step-1]}`;
+  $('[data-st3]',dlg).textContent=mode==='demo'?'Practise':'Fund & trade';
+  $('[data-st3d]',dlg).textContent=mode==='demo'?'Virtual funds, no deposit needed':'Gold & Oil, 24/7 incl. weekends · ~1 min';
+  $('.vsteps li[data-st="3"] .vs__n i',dlg).textContent=mode==='demo'?'2':'3';
+}
+function setMode(m){ mode=m;
+  $('#suTitle').textContent=m==='demo'?'Open your free demo':'Create your account';
+  $('#suLead').textContent=m==='demo'?'Practise Gold & Oil weekend trading with virtual funds. No deposit needed.':"Takes about a minute. You can trade Gold & Oil 24/7 once you're verified.";
+  $('#s1Btn').firstChild.nodeValue=m==='demo'?'Open demo account ':'Create account ';
+  $('#toDemo').textContent=m==='demo'?'Open a live account instead':'Practise on demo first';
+  syncSteps(); }
+function setStep(n,focus=true){ view='signup'; step=n; const cur=show(['#s1','#s2','#s3'][n-1]); syncSteps(); if(focus) $('h2',cur).focus({preventScroll:true}); }
+function setLogin(n=1,focus=true){ view='login'; const cur=show(n===1?'#sL':'#sL2'); syncSteps(); if(focus) $('h2',cur).focus({preventScroll:true}); }
+function resetForms(){
+  $('#s1').reset(); $('#sL').reset(); $('#pwErr').hidden=true; $('#fpNote').hidden=true;
+  $$('.pw',dlg).forEach(p=>{ $('input',p).type='password'; const b=$('button',p); b.textContent='Show'; b.setAttribute('aria-label','Show password'); });
+  $$('.upl button').forEach(b=>{ const sp=b.querySelector('span'); if(!b.dataset.orig) b.dataset.orig=sp.textContent; sp.textContent=b.dataset.orig; b.classList.remove('ok'); }); s2ready();
+}
+function openSU(btn){
+  origin=btn; resetForms(); lastMkt=btn.dataset.open||'gold';
+  picks.forEach(p=>p.setAttribute('aria-pressed',p.dataset.pick===lastMkt));
+  setMode(btn.dataset.mode||'live'); dlg.showModal();
+  if(btn.dataset.view==='login'){ setLogin(1,false); setTimeout(()=> coarse ? $('#sLTitle').focus({preventScroll:true}) : $('#l-email').focus(),60); }
+  else { setStep(1,false); setTimeout(()=> coarse ? $('#suTitle').focus({preventScroll:true}) : $('#f-email').focus(),60); }
+  upd();
+}
+$$('[data-open]').forEach(b=>b.addEventListener('click',()=>openSU(b)));
+$('#suClose').addEventListener('click',()=>dlg.close());
+dlg.addEventListener('click',e=>{ if(e.target===dlg) dlg.close(); });
+dlg.addEventListener('close',()=>{ upd(); origin&&origin.focus&&origin.focus({preventScroll:true}); });
+$('#toDemo').addEventListener('click',()=>{ setMode(mode==='demo'?'live':'demo'); $('#suTitle').focus({preventScroll:true}); $('.su__body',$('#s1')).scrollTop=0; });
+$('#toLogin').addEventListener('click',()=>setLogin(1));
+$('#toSignup').addEventListener('click',()=>{ setMode('live'); setStep(1); });
+picks.forEach(p=>p.addEventListener('click',()=>{ const on=p.getAttribute('aria-pressed')==='true'; if(on && picks.filter(x=>x.getAttribute('aria-pressed')==='true').length===1) return; p.setAttribute('aria-pressed',!on); }));
+$$('.pw button',dlg).forEach(b=>b.addEventListener('click',()=>{ const i=$('input',b.parentElement), sh=i.type==='password'; i.type=sh?'text':'password'; b.textContent=sh?'Hide':'Show'; b.setAttribute('aria-label',sh?'Hide password':'Show password'); }));
+const chosen=()=>picks.filter(p=>p.getAttribute('aria-pressed')==='true').map(p=>p.dataset.pick);
+function invalid(f){ const bad=$$('input,select',f).find(x=>!x.checkValidity()); if(bad){ bad.scrollIntoView({block:'center',behavior:'smooth'}); bad.focus({preventScroll:true}); } f.reportValidity&&f.reportValidity(); }
+$('#s1').addEventListener('submit',e=>{
+  e.preventDefault(); const f=e.target; $('#pwErr').hidden=$('#f-pw').value.length>=8;
+  if(!f.checkValidity()) return invalid(f);
+  if(mode==='demo') return finish(true);
+  setStep(2);
+});
+function s2ready(){ $('#s2Btn').disabled=!$$('.upl button').every(b=>b.classList.contains('ok')); }
+$$('.upl button').forEach(b=>b.addEventListener('click',()=>{ b.classList.add('ok'); b.querySelector('span').textContent='Uploaded · ready to submit'; s2ready(); }));
+$('#s2Btn').addEventListener('click',()=>finish(false));
+$('#skipV').addEventListener('click',()=>finish(false,true));
+function finish(demo,skipped){
+  const mk=chosen(), names=mk.map(k=>MK[k].name).join(' & ');
+  if(demo){ mode='demo';
+    $('#s3Title').textContent='Your demo is ready'; $('#s3Lead').textContent=`Virtual funds loaded. ${names} ${mk.length>1?'are':'is'} open 24/7, including this weekend.`;
+    $('#s3N').textContent='2'; $('#s3NextT').textContent='Place a practice trade'; $('#s3NextD').textContent=`Your platform opens on ${MK[mk[0]].name}. Switch to a live account in one tap when you're ready.`;
+    $('#s3Btn').firstChild.nodeValue='Open demo platform '; $('#s3Alt').hidden=true;
+  } else {
+    $('#s3Title').textContent=skipped?'Account created':'Documents submitted'; $('#s3Lead').textContent=skipped?'You can explore the platform now. Verify before your first deposit.':"Most checks finish in a few minutes. We'll email you when you're approved.";
+    $('#s3N').textContent='3'; $('#s3NextT').textContent='Fund your account'; $('#s3NextD').textContent=`Choose a payment method. Your platform will open on ${names} with weekend sessions enabled.`;
+    $('#s3Btn').firstChild.nodeValue='Make a deposit '; $('#s3Alt').hidden=false;
+  }
+  setStep(3);
+}
+$('#s3Btn').addEventListener('click',()=>dlg.close());
+$('#s3Demo').addEventListener('click',()=>finish(true));
+$('#forgot').addEventListener('click',()=>{ const em=$('#l-email');
+  if(!em.value || !em.checkValidity()){ em.focus(); em.reportValidity(); return; }
+  $('#fpText').textContent=`If an account exists for ${em.value}, we've sent a password reset link.`; $('#fpNote').hidden=false; requestAnimationFrame(overflow); });
+$('#sL').addEventListener('submit',e=>{
+  e.preventDefault(); const f=e.target; if(!f.checkValidity()) return invalid(f);
+  const d=new Date();
+  $('#sL2Lead').textContent=`It's ${fmtLong.format(d)}, ${fmtT.format(d)}. Gold & Oil are open.`;
+  $('#sL2T').textContent=`Open the platform on ${MK[lastMkt].name}`;
+  setLogin(2);
+});
+$('#sL2Btn').addEventListener('click',()=>dlg.close());
+$('#logout').addEventListener('click',()=>{ $('#sL').reset(); setLogin(1); });
+})();
+</script>
+
+</body></html>
